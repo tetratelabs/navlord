@@ -1,5 +1,4 @@
-export const input = {
-  diagrams: [
+export const diagrams= [
     {
       diagramid: "L0-A",
       title: "Level 0 - Overall View",
@@ -2568,5 +2567,4 @@ export const input = {
         }
       ]
     }
-  ]
-};
+  ];
