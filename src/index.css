@@ -67,3 +67,37 @@ body {
 .plane-Button:active {
   transform: translateY(8px);
 }
+
+.infoTypeCon{
+  width: 90vw;
+  max-width: 1140px;
+  height: 56px;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.infoType {
+  width: 120px;
+  height: 44px;
+  text-align: center;
+  padding: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e2e2e;
+  font-size: 14pt;
+  margin-top: 12px;
+  font-weight: thin;
+  box-sizing: border-box;
+  background-color: lightgray;
+  border-radius: 8px;
+}
+
+.infoType:hover {
+  background-color: tomato;
+  cursor: pointer;
+  color: whitesmoke;
+}

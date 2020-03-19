@@ -1,20 +1,14 @@
-import React from 'react'
+import React from "react";
+import {infoData} from "./data/infoTypeData";
+import { v4 as uuidv4 } from 'uuid';
 
-const infoTypes = () => {
+const InfoTypes = () => {
+  const infoTypeList = infoData.map(infotype => {
+      console.log(infotype);
+    return <div key={uuidv4()} className="infoType">{infotype}</div>;
+  });
 
-    const infoTypeList = infoData.map(infotype=> {
-        return(
-            <div>
-                infotype.
-            </div>
-        )
-    })
+  return <div className="infoTypeCon">{infoTypeList}</div>;
+};
 
-    return ( 
-    <div>
-
-    </div> 
-    );
-}
- 
-export default infoTypes;
+export default InfoTypes;
