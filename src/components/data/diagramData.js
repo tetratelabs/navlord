@@ -1015,7 +1015,7 @@ export const diagramData = [
         nodetype: "Component",
         caption: "Isitio",
         overview: "",
-        tags: "isitio",
+        tags: "istio",
         infotypes: []
       },
       {
