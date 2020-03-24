@@ -4,15 +4,18 @@ import { v4 as uuidv4 } from "uuid";
 
 const InfoTypes = () => {
   const infoTypeList = infoData.map(infotype => {
-    
     return (
-      <div key={uuidv4()} className="infoType">
+      <div key={uuidv4()} className="infotype">
         {infotype}
       </div>
     );
   });
 
-  return <div className="infoTypeCon">{infoTypeList}</div>;
+  return (
+    <div className="infotype-background">
+      <div className="infotype-con">{infoTypeList}</div>
+    </div>
+  )
 };
 
 export default InfoTypes;
