@@ -1,8 +1,16 @@
 import { diagramData } from "./data/diagramData2";
 
-const Navigation = diagramid => {
-  const result = diagramData.find(({ diagramid }) => diagramid === diagramid);
-  console.log(result);
+const Navigation = diagram => {
+  //Handling a exception with if/else
+  let result;
+  if (diagram === "L0-A") {
+    result = {
+      objects: [{ caption: "Tetrate" }]
+    };
+  } else {
+    result = diagramData.find(({ diagramid }) => diagramid === diagram);
+  }
+
   return result;
 };
 
