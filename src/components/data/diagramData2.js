@@ -447,7 +447,8 @@ export const diagramData = [
         nodetype: "Component",
         caption: "TSB UI",
         overview: "",
-        tags: ""
+        tags: "",
+        infotypes: []
       },
       {
         diagid: "L1-M",
@@ -489,7 +490,8 @@ export const diagramData = [
         nodetype: "Component",
         caption: "Tetrate D",
         overview: "",
-        tags: ""
+        tags: "",
+        infotypes: []
       },
       {
         diagid: "L1-C",
@@ -522,7 +524,8 @@ export const diagramData = [
         nodetype: "Component",
         caption: "Envoy-Loadbalancer",
         overview: "",
-        tags: "get-envoy;envoy"
+        tags: "get-envoy;envoy",
+        infotypes: []
       },
       {
         diagid: "L1-D",
