@@ -3,6 +3,7 @@ import Navigation from "./navigation";
 import { v4 as uuidv4 } from "uuid";
 import Hotspot from "./hotspot";
 
+
 const MainHeader = () => {
     const [diagram, setDiagram] = useState("L0-A");
 
