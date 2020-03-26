@@ -22,7 +22,7 @@ export const diagramData = [
                                 title: "Istio Dominated at KubeCon San Diego",
                                 subgenre: "Event Summary",
                                 overview:
-                                    "A crowd of 12,000 attended KubeCon San Diego this November, looking to the cloud native skies for the IT forecast. Temperature takers couldnâ€™t fail to notice the maturation of service mesh technologies and the rise of Istio, the open source project that has now moved into production and is operating at scale. Only a year ago, KubeCon attendees in Seattle â€¦",
+                                    "A crowd of 12,000 attended KubeCon San Diego this November, looking to the cloud native skies for the IT forecast. Temperature takers couldn't fail to notice the maturation of service mesh technologies and the rise of Istio, the open source project that has now moved into production and is operating at scale. Only a year ago, KubeCon attendees in Seattle!",
                                 tags: "event;kubecon;cloudnative;istio",
                                 url: "https://www.tetrate.io/blog/istiokubecon/"
                             },

@@ -146,3 +146,47 @@ body {
   cursor: pointer;
   color: whitesmoke;
 }
+
+.content-con{
+  width: 50vw;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+  left: 50%;
+  transform: translateX(-25%);
+  background-color: bisque;
+}
+
+.info-con{
+  width: 100%;
+  padding: 8px;
+  margin-block-start: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 6px darksalmon;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-evenly;
+}
+ .info-con:hover {
+  width: 100%;
+  padding: 8px;
+  margin-block-start: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: whitesmoke;
+  box-shadow: none;
+  cursor: pointer;
+ }
+
+ .info-img img{
+   border-radius: 16px;
+   margin-right: 16px;
+ }
+
+ .info-img{
+  align-self: center;
+ }

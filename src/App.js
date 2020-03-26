@@ -10,7 +10,7 @@ function App() {
       <NodeContextProvider>
         <MainHeader />
         <InfoTypes />
-        {/* <Content /> */}
+        <Content />
       </NodeContextProvider>
     </div>
   );
