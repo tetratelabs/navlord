@@ -109,8 +109,9 @@ body {
 .infotype-background{
   width: 100%;
   height: 240px;
-  background-color: whitesmoke;
+  background-color: white;
   z-index: -4;
+  border-bottom: 1px solid darkgray;
 }
 
 .infotype-con{
@@ -123,13 +124,14 @@ body {
   transform: translateX(-50%);
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .infotype {
   width: 120px;
   height: 44px;
   text-align: center;
+  margin: 24px;
   padding: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2e2e2e;
@@ -148,39 +150,52 @@ body {
 }
 
 .content-con{
-  width: 50vw;
+  width: 66vw;
   padding: 24px;
   box-sizing: border-box;
   position: relative;
   left: 50%;
+  top: 240px;
   transform: translateX(-25%);
-  background-color: bisque;
+  background-color: whitesmoke;
+  z-index: -1;
 }
 
 .info-con{
-  width: 100%;
+  width: 80%;
   padding: 8px;
   margin-block-start: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
   border-radius: 16px;
   background-color: whitesmoke;
-  box-shadow: 0 2px 6px darksalmon;
+  box-shadow: 0 6px 6px lightgray;
   font-weight: 100;
   display: flex;
   justify-content: space-evenly;
+  text-decoration: none;
+  border-top:white 2px solid;
 }
  .info-con:hover {
-  width: 100%;
+  width: 80%;
   padding: 8px;
   margin-block-start: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
   border-radius: 16px;
   background-color: whitesmoke;
-  box-shadow: none;
+  box-shadow: 0 2px 2px darkgray;
   cursor: pointer;
+  text-decoration: none;
  }
+
+ .info-title{
+   margin-right: 16px;
+ }
+
+ .info-overview{
+  margin-right: 16px;
+}
 
  .info-img img{
    border-radius: 16px;

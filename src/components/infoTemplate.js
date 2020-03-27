@@ -2,8 +2,9 @@ import React from "react";
 import Tetrate from "./assets/tetrate-logo.png";
 
 const Info = ({ data }) => {
+
     return (
-        <div className="info-con">
+        <a className="info-con" href={data.url} target="_blank">
             <div className="info-img">
                 <img src={Tetrate} alt="Tetrate logo" />
             </div>
@@ -11,7 +12,7 @@ const Info = ({ data }) => {
                 <h3 className="info-title">{data.title} </h3>
                 <p className="info-overview"> {data.overview}</p>
             </div>
-        </div>
+        </a>
     );
 };
 
