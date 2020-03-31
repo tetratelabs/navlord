@@ -2,20 +2,23 @@ import React from "react";
 import Info from "./infoTemplate";
 import { v4 as uuidv4 } from "uuid";
 
-const Infotype = ({ infotype }) => {
+const Infotype = ({ infotype , selectedInfotype}) => {
     
-    const infoList = infotype.info.map(data => {
+    if (infotype.infotype == selectedInfotype) {
         return (
-            <div key={uuidv4()}>
-                <Info data={data} />
+            <div>
+                {infotype.info.map(data => {
+                    return (
+                        <div key={uuidv4()}>
+                            <Info data={data} />
+                        </div>
+                    );
+                })}
             </div>
         );
-    });
-    return (
-        <div>
-            {infoList}
-        </div>
-    );
+    } else {
+        return null;
+    }
 };
 
 export default Infotype;

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { NodeContext } from "./contexts/nodeContext";
 import Infotype from "./infotypeTemplate";
 import { v4 as uuidv4 } from "uuid";
@@ -6,11 +6,12 @@ import InfotypeSelect from "./infotypeSelect";
 
 const Content = () => {
     const { node } = useContext(NodeContext);
+    const [selectedInfotype, setSelect]=useState('');
 
     const contentList = node.map(infotype => {
         return (
             <div key={uuidv4()}>
-                <Infotype infotype={infotype} />
+                <Infotype infotype={infotype} selectedInfotype={selectedInfotype}/>
             </div>
         );
     });
@@ -20,8 +21,8 @@ const Content = () => {
             <div className="infotype-con">
                 {node.map(type => {
                     return(
-                        <div>
-                            <InfotypeSelect type={type} />
+                        <div key={uuidv4()}>
+                            <InfotypeSelect type={type} setSelect={setSelect}/>
                         </div>
                     );
                 })}
