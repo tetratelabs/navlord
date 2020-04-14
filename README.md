@@ -8,3 +8,5 @@ Problems to tackle:
     - Possible Alternative: The Info Template for each infotype template looks different.
 
 3. Add a Search Bar.
+
+Trying Github pages.
