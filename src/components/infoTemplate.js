@@ -4,7 +4,7 @@ import Tetrate from "./assets/tetrate-logo.png";
 const Info = ({ data }) => {
 
     return (
-        <a className="info-con" href={data.url} target="_blank">
+        <a className="info-con" href={data.url} target="_blank" rel="noopener noreferrer">
             <div className="info-img">
                 <img src={Tetrate} alt="Tetrate logo" />
             </div>

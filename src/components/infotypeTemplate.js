@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const Infotype = ({ infotype , selectedInfotype}) => {
     
-    if (infotype.infotype == selectedInfotype) {
+    if (infotype.infotype === selectedInfotype) {
         return (
             <div>
                 {infotype.info.map(data => {

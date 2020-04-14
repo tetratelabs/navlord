@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navigation from "./navigation";
 import { v4 as uuidv4 } from "uuid";
-import Hotspot from "./hotspot";
+import MapHotspots from "./mapHotspots";
 
 
 const MainHeader = () => {
@@ -29,6 +29,7 @@ const MainHeader = () => {
         } else {
             setDiagram("L0-A");
         }
+        
         setControl(!control);
         setManage(false);
         setData(false);
@@ -43,7 +44,7 @@ const MainHeader = () => {
 
         setData(!data);
         setManage(false);
-        setControl(false);
+        setControl(false); 
     };
 
     let navData = Navigation(diagram);
@@ -51,7 +52,7 @@ const MainHeader = () => {
     const hotspots = navData.objects.map(nav => {
         return (
             <div key={uuidv4()}>
-                <Hotspot node={nav} />
+                <MapHotspots node={nav} />
             </div>
         );
     });

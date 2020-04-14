@@ -6,7 +6,7 @@ import InfotypeSelect from "./infotypeSelect";
 
 const Content = () => {
     const { node } = useContext(NodeContext);
-    const [selectedInfotype, setSelect]=useState('');
+    const [selectedInfotype, setSelect]=useState('All');
 
     const contentList = node.map(infotype => {
         return (

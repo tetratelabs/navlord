@@ -12,3 +12,4 @@ const Hotspot = ({ node }) => {
 };
 
 export default Hotspot;
+ 
