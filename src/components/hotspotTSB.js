@@ -1,16 +1,22 @@
 import React, {useState, useContext} from "react";
 import { NodeContext } from "./contexts/nodeContext";
+import { GraphContext } from "./contexts/graphContext";
 
 const TSB = ({ node }) => {
+    const {setDraw1, draw1, setDraw2} = useContext(GraphContext);
+    
     const [hover, setHover]= useState(false);
 
     const handleHover = ()=> {
         setHover(!hover);
+        setDraw1(!draw1);
+        setDraw2(false);
     }
 
     const { setNode } = useContext(NodeContext);
     const handleClick=()=> {
         setNode(node.infotypes);
+        setDraw2(true);
     }
 
     return (
