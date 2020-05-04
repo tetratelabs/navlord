@@ -34,9 +34,7 @@ const Envoy = ({ node }) => {
             />
             <text
                 transform="translate(43.327 42)"
-                font-size="32"
-                font-family="NeueHaasDisplay-XThin, Neue Haas Grotesk Display Pro"
-                font-weight="bold"
+                font-size="26"
                 fill={hover?"#fff":"000"}
             >
                 <tspan x="0" y="0">

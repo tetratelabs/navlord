@@ -1083,7 +1083,7 @@ export const diagramData = [
                 diagid: "L1-M",
                 nodeid: 4,
                 nodetype: "Component",
-                caption: "TSB UI",
+                caption: "Simple",
                 overview: "",
                 tags: "",
                 infotypes: []
@@ -1092,7 +1092,7 @@ export const diagramData = [
                 diagid: "L1-M",
                 nodeid: 5,
                 nodetype: "Component",
-                caption: "Workflow Server",
+                caption: "Secure",
                 overview: "",
                 tags: "",
                 infotypes: []
@@ -1101,18 +1101,9 @@ export const diagramData = [
                 diagid: "L1-M",
                 nodeid: 6,
                 nodetype: "Component",
-                caption: "API Server",
+                caption: "Universal",
                 overview: "",
                 tags: "",
-                infotypes: []
-            },
-            {
-                diagid: "L1-M",
-                nodeid: 7,
-                nodetype: "Component",
-                caption: "SkyWalking",
-                overview: "",
-                tags: "skywalking;apache-skywalking",
                 infotypes: []
             }
         ]

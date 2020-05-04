@@ -34,9 +34,7 @@ const Istio = ({ node }) => {
             />
             <text
                 transform="translate(54 40)"
-                fontSize="29"
-                fontFamily="NeueHaasDisplay-XThin, Neue Haas Grotesk Display Pro"
-                fontWeight="bold"
+                fontSize="26"
                 fill={hover?"#fff":"000"}
             >
                 <tspan x="0" y="0">
