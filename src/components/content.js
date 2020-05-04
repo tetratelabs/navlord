@@ -17,8 +17,8 @@ const Content = () => {
     });
 
     return (
-        <div className="infotype-background">
-            <div className="infotype-con">
+        <div>
+            {/* <div className="infotype-con">
                 {node.map(type => {
                     return(
                         <div key={uuidv4()}>
@@ -26,7 +26,7 @@ const Content = () => {
                         </div>
                     );
                 })}
-            </div>
+            </div> */}
 
             <div className="content-con">{contentList}</div>
         </div>

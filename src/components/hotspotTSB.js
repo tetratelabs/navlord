@@ -36,10 +36,8 @@ const TSB = ({ node }) => {
             />
 
             <text
-                transform="translate(12 76)"
-                fontSize="32"
-                fontFamily="Neue Haas Grotesk Display Pro"
-                fontWeight="bold"
+                transform="translate(28 76)"
+                fontSize="26"
                 fill={hover?"#fff":"000"}
             >
                 <tspan x="0" y="0" >

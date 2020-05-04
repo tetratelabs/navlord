@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import MapHotspots from "./mapHotspots";
 import Illustration from "./illustration";
 import GraphContextProvider from "./contexts/graphContext";
+import Grid from "./grid";
 
 const MainHeader = () => {
     const [diagram, setDiagram] = useState("L0-A");
@@ -11,6 +12,8 @@ const MainHeader = () => {
     const [manage, setManage] = useState(false);
     const [control, setControl] = useState(false);
     const [data, setData] = useState(false);
+
+    const [grid, setGrid] = useState('grid1');
 
     const handleM = () => {
         if (diagram !== "L1-M") {
@@ -22,6 +25,7 @@ const MainHeader = () => {
         setManage(!manage);
         setControl(false);
         setData(false);
+        setGrid('grid1');
     };
 
     const handleC = () => {
@@ -34,6 +38,7 @@ const MainHeader = () => {
         setControl(!control);
         setManage(false);
         setData(false);
+        setGrid('grid2');
     };
 
     const handleD = () => {
@@ -46,6 +51,7 @@ const MainHeader = () => {
         setData(!data);
         setManage(false);
         setControl(false);
+        setGrid('grid3');
     };
 
     let navData = Navigation(diagram);
@@ -61,35 +67,31 @@ const MainHeader = () => {
     return (
         <div className="mainHeader">
             <GraphContextProvider>
+                <Grid scale={grid}/>
                 <div className="illustration">
                     <Illustration />
                     {hotspots}
                 </div>
                 <div className="plane-Button-Con">
+                    <div className="button-bar"></div>
                     <div
                         className={
                             manage ? "plane-Button-pressed" : "plane-Button"
                         }
                         onClick={handleM}
-                    >
-                        Management Plane
-                    </div>
+                    ></div>
                     <div
                         className={
                             control ? "plane-Button-pressed" : "plane-Button"
                         }
                         onClick={handleC}
-                    >
-                        Control Plane
-                    </div>
+                    ></div>
                     <div
                         className={
                             data ? "plane-Button-pressed" : "plane-Button"
                         }
                         onClick={handleD}
-                    >
-                        Data Plane
-                    </div>
+                    ></div>
                 </div>
             </GraphContextProvider>
         </div>

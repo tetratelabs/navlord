@@ -11,15 +11,33 @@ body {
 
 .mainHeader {
   width: 100%;
-  height: 356px;
+  height: 528px;
   background-color: #FFCB64;
+  /* background-image: url(./assets/grid.svg); */
+  transition: 0.3s all ease-out;
+  overflow: hidden;
+}
+
+.grid1 {
+  transform: scale(1);
+  transition: 0.3s all ease-out;
+}
+
+.grid2 {
+  transform: scale(1.5);
+  transition: 0.3s all ease-out;
+}
+
+.grid3 {
+  transform: scale(3);
+  transition: 0.3s all ease-out;
 }
 
 .illustration {
   width: 90vw;
   max-width: 1080px;
   height: 360px;
-  z-index: 2;
+  /* z-index: 2; */
   border-radius: 16px;
   box-sizing: border-box;
   box-shadow: 0 4px #19191940; 
@@ -98,12 +116,11 @@ body {
 }
 
 .plane-Button-Con{
-  width: 80vw;
-  max-width: 1000px;
-  height: 64px;
+  width: 240px;
+  height:36px;
   /* border: 1px solid black; */
   position: absolute;
-  top: 408px;
+  top: 400px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -113,51 +130,63 @@ body {
 }
 
 .plane-Button {
-  width: 33%;
-  height: 64px;
+  width: 36px;
+  height: 36px;
   text-align: center;
-  padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: whitesmoke;
   font-size: 20pt;
   font-weight: thin;
-  box-sizing: border-box;
   background-color: #FF6347;
-  border-radius: 0 0 8px 8px;
+  border-radius: 50%;
+  box-sizing: border-box;
 }
 
 .plane-Button:hover {
-  background-color: #430C60;
+  background-color: #FFCB64;
+  border: 4px solid #FF6347;
+  box-sizing: border-box;
   cursor: pointer;
 }
 
 .plane-Button-pressed {
-  width: 33%;
-  height: 64px;
+  width: 36px;
+  height: 36px;
   text-align: center;
-  padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: whitesmoke;
   font-size: 20pt;
   font-weight: thin;
+  background-color: #FFF6E9;
+  border-radius: 50%;
+  border: 4px solid #FF6347;
   box-sizing: border-box;
-  background-color: #430C60;
-  border-radius: 0 0 8px 8px;
-  transform: translateY(8px);
 }
+
+
 
 .plane-Button-pressed:hover{
   cursor: pointer;
 }
 
-.infotype-background{
+.button-bar {
+  width: 90%;
+  height: 8px;
+  position: absolute;
+  top: 14px;
+  left: 5%;
+  background-color: #FF6347;
+  z-index: -1;
+}
+
+/* .infotype-background{
   width: 100%;
   height: 240px;
-  background-color: #FFF6E9;
+  background-color: #FFCB64;
   z-index: -4;
   border-bottom: 1px solid darkgray;
   box-sizing: border-box;
-}
+} */
 
 .infotype-con{
   width: 90vw;
@@ -203,7 +232,7 @@ body {
   box-sizing: border-box;
   position: relative;
   left: 50%;
-  top: 240px;
+  top: 0;
   transform: translateX(-24%);
   background-color: #f2f2f2;
   z-index: -1;
