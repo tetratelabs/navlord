@@ -14,6 +14,6 @@ const Info = ({ data }) => {
             </div>
         </a>
     );
-};
+}; 
 
 export default Info;

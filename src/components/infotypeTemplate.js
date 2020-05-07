@@ -19,6 +19,6 @@ const Infotype = ({ infotype , selectedInfotype}) => {
     } else {
         return null;
     }
-};
+}; 
 
 export default Infotype;

@@ -1,4 +1,4 @@
-import { diagramData } from "./data/diagramData3";
+import { diagramData } from "./data/diagramData4";
 
 const Navigation = diagram => {
     // //Handling a exception with if/else

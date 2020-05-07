@@ -7,54 +7,43 @@ import GraphContextProvider from "./contexts/graphContext";
 import Grid from "./grid";
 
 const MainHeader = () => {
-    const [diagram, setDiagram] = useState("L0-A");
+    const [diagram, setDiagram] = useState("L1-M");
 
-    const [manage, setManage] = useState(false);
+    const [manage, setManage] = useState(true);
     const [control, setControl] = useState(false);
     const [data, setData] = useState(false);
 
     const [grid, setGrid] = useState('grid1');
 
     const handleM = () => {
-        if (diagram !== "L1-M") {
-            setDiagram("L1-M");
-        } else {
-            setDiagram("L0-A");
-        }
+        setDiagram("L1-M");
 
-        setManage(!manage);
+        setManage(true);
         setControl(false);
         setData(false);
         setGrid('grid1');
     };
 
     const handleC = () => {
-        if (diagram !== "L1-C") {
-            setDiagram("L1-C");
-        } else {
-            setDiagram("L0-A");
-        }
+        setDiagram("L1-C");
 
-        setControl(!control);
+        setControl(true);
         setManage(false);
         setData(false);
         setGrid('grid2');
     };
 
     const handleD = () => {
-        if (diagram !== "L1-D") {
-            setDiagram("L1-D");
-        } else {
-            setDiagram("L0-A");
-        }
+        setDiagram("L1-D");
 
-        setData(!data);
+        setData(true);
         setManage(false);
         setControl(false);
         setGrid('grid3');
     };
 
     let navData = Navigation(diagram);
+    console.log(navData);
 
     const hotspots = navData.objects.map((nav) => {
         return (

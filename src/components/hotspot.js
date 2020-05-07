@@ -20,7 +20,7 @@ const Hotspot = ({ node }) => {
         <div
             className="navLink"
             onClick={handleClick}
-            onMouseEnter={handleHover}
+            onMouseEnter={handleHover} 
             onMouseLeave={handleHover}
         >
             {node.caption}

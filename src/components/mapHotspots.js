@@ -13,7 +13,7 @@ const MapHotspots = ({node}) => {
             hotspot = <TSB node={node}/>;
             break;
 
-        case "Istio ":
+        case "Istio":
             hotspot = <Istio node={node}/>;
             break;
 
@@ -31,6 +31,6 @@ const MapHotspots = ({node}) => {
             {hotspot}
         </div> 
     );
-}
+} 
  
 export default MapHotspots;
