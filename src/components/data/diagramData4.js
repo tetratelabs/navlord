@@ -348,7 +348,7 @@ export const diagramData = [
                 diagid: "L1-C",
                 nodeid: 6,
                 nodetype: "Istio",
-                caption: "Debug and Troubleshoot",
+                caption: "Debugging",
                 overview: "",
                 tags: "",
                 infotypes: [
@@ -454,7 +454,7 @@ export const diagramData = [
                 diagid: "L1-D",
                 nodeid: 10,
                 nodetype: "Envoy",
-                caption: "Debug and Troubleshoot",
+                caption: "Debugging",
                 overview: "",
                 tags: "istio",
                 infotypes: [

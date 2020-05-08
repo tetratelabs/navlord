@@ -59,7 +59,9 @@ const MainHeader = () => {
                 <Grid scale={grid}/>
                 <div className="illustration">
                     <Illustration />
-                    {hotspots}
+                    <div className="hotspot-con">
+                     {hotspots}
+                    </div>
                 </div>
                 <div className="plane-Button-Con">
                     <div className="button-bar"></div>
