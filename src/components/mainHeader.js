@@ -30,7 +30,7 @@ const MainHeader = () => {
         setControl(true);
         setManage(false);
         setData(false);
-        setGrid('grid2');
+        setGrid('grid2'); 
     };
 
     const handleD = () => {

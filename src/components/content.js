@@ -7,6 +7,7 @@ import InfotypeSelect from "./infotypeSelect";
 const Content = () => {
     const { node } = useContext(NodeContext);
     const [selectedInfotype, setSelect]=useState('All');
+    console.log(node);
 
     const contentList = node.map(infotype => {
         return (
@@ -17,19 +18,8 @@ const Content = () => {
     });
 
     return (
-        <div>
-            {/* <div className="infotype-con">
-                {node.map(type => {
-                    return(
-                        <div key={uuidv4()}>
-                            <InfotypeSelect type={type} setSelect={setSelect}/>
-                        </div>
-                    );
-                })}
-            </div> */}
 
             <div className="content-con">{contentList}</div>
-        </div>
     );
 };
 
