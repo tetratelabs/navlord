@@ -223,6 +223,7 @@ body {
 
 .info-con{
   width: 30%;
+  min-width: 120px;
   padding: 8px;
   box-sizing: border-box;
   border-radius: 16px;
@@ -232,8 +233,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   border-top:white 2px solid;
-  /* border:1px solid black; */
+  border:1px solid black;
   margin-bottom: 16px;
+
 }
  .info-con:hover {
   width: 30%;
