@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { NodeContext } from "./contexts/nodeContext";
 import { GraphContext } from "./contexts/graphContext";
 
-const Istio = ({ node }) => {
+const Istio = ({ node }) => { 
     const {setDraw1, draw1, setDraw2} = useContext(GraphContext);
     const [hover, setHover] = useState(false);
 

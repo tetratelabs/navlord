@@ -283,7 +283,7 @@ export const diagramData = [
                 diagid: "L1-C",
                 nodeid: 5,
                 nodetype: "Istio",
-                caption: "Install and Upgrade",
+                caption: "Install&Upgrade",
                 overview: "",
                 tags: "",
                 infotypes: [
@@ -445,7 +445,7 @@ export const diagramData = [
                 diagid: "L1-D",
                 nodeid: 9,
                 nodetype: "Envoy",
-                caption: "Install and Upgrade",
+                caption: "Install&Upgrade",
                 overview: "",
                 tags: "istio",
                 infotypes: [],
