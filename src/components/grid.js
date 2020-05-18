@@ -3,7 +3,7 @@ import React from "react";
 const Grid = ({scale}) => {
 
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="528" className={scale} opacity="0.5"> 
+      <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="528" className={scale} opacity="0.2"> 
       <defs>
         <clipPath id="a">
           <path fill="none" d="M0 0h1920v489H0z"/>
@@ -12,7 +12,7 @@ const Grid = ({scale}) => {
           <path fill="none" d="M0 0h1880v528H0z"/>
         </clipPath>
       </defs>
-      <g fill="none" stroke="#fff6e9">
+      <g fill="none" stroke="#f8f8f8">
         <g transform="translate(0 39)" clipPath="url(#a)">
           <path d="M0 .5h1366M0 40.5h1366M1366 .5h1366M1366 40.5h1366M0 61.5h1366M0 101.5h1366M1366 61.5h1366M1366 101.5h1366M0 122.5h1366M0 162.5h1366M1366 122.5h1366M1366 162.5h1366M0 183.5h1366M0 223.5h1366M1366 183.5h1366M1366 223.5h1366M0 244.5h1366M0 284.5h1366"/>
           <g>
