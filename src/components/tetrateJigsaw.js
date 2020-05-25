@@ -1,12 +1,15 @@
 import React, { useState, useContext } from "react";
-import { GraphContext } from "./components/contexts/graphContext";
-import Navigation from "./components/navigation";
+import { GraphContext } from "./contexts/graphContext";
+import Navigation from "./navigation";
 import { v4 as uuidv4 } from "uuid";
-import Hotspot from "./components/hotspot";
+import Hotspot from "./hotspot";
+import Resources from "./resources";
+import { NodeContext } from "./contexts/nodeContext";
+import InfotypeBar from "./infotype";
 
 const Jigsaw = ({grid}) => {
 
-    const [diagram, setDiagram] = useState("L1-M");
+    const [diagram, setDiagram] = useState("Tetrate");
     const [manage, setManage]= useState(true);
     const [control, setControl]= useState(false);
     const [data, setData]= useState(false);
@@ -16,9 +19,10 @@ const Jigsaw = ({grid}) => {
     const [hover3, setHover3] = useState(false);
 
     const { setDraw1, draw1, setDraw2 } = useContext(GraphContext);
+    const { setNode } = useContext(NodeContext);
 
     const handleClick1 = () => {
-        setDiagram("L1-D");
+        setDiagram("Envoy");
         setDraw2(true);
         grid('grid3');
         
@@ -28,7 +32,7 @@ const Jigsaw = ({grid}) => {
     };
 
     const handleClick2 = () => {
-        setDiagram("L1-C");
+        setDiagram("Istio");
         setDraw2(true);
         grid('grid2');
 
@@ -38,7 +42,7 @@ const Jigsaw = ({grid}) => {
     };
 
     const handleClick3 = () => {
-        setDiagram("L1-M");
+        setDiagram("Tetrate");
         setDraw2(true);
         grid('grid1');
 
@@ -64,17 +68,40 @@ const Jigsaw = ({grid}) => {
         setDraw1(!draw1);
         setDraw2(false);
     };
-    
 
-    let navData = Navigation(diagram);
-
-    const hotspots = navData.objects.map((nav) => {
+    let res = Resources(diagram);
+    let navData = res.map( nav=> {
         return (
-            <div key={uuidv4()}>
-                <Hotspot node={nav} />
+            <div className="info-con" key={uuidv4}>
+                <a
+                    className="info"
+                    href={nav.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {/* <div className="info-img">
+                        <img src={Tetrate} alt="Tetrate logo" />
+                    </div> */}
+                    <div>
+                        <h3 className="info-title">{nav.title} </h3>
+                        <p className="info-overview"> {nav.overview}</p>
+                    </div>
+                </a>
             </div>
+            
         );
-    });
+    })
+    
+    // console.log(res);
+    // let navData = Navigation(diagram);
+
+    // const hotspots = navData.objects.map((nav) => {
+    //     return (
+    //         <div key={uuidv4()}>
+    //             <Hotspot node={nav} />
+    //         </div>
+    //     );
+    // });
 
     return (
         <div>
@@ -138,7 +165,9 @@ const Jigsaw = ({grid}) => {
                 </text>
             </svg>
 
-            <div className="hotspot-con">{hotspots}</div>
+           <InfotypeBar />
+
+            <div className="content-con">{navData}</div>
         </div>
     );
 };

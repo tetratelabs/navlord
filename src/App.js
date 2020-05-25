@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NodeContextProvider>
         <MainHeader />
-        <Content />
+        {/* <Content /> */}
       </NodeContextProvider>
     </div>
   );

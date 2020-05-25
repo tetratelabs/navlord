@@ -5,9 +5,9 @@ const Info = ({ data }) => {
 
     return (
         <a className="info" href={data.url} target="_blank" rel="noopener noreferrer">
-            {/* <div className="info-img">
+            <div className="info-img">
                 <img src={Tetrate} alt="Tetrate logo" />
-            </div> */}
+            </div>
             <div>
                 <h3 className="info-title">{data.title} </h3>
                 <p className="info-overview"> {data.overview}</p>

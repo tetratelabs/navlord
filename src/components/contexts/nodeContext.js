@@ -4,7 +4,10 @@ export const NodeContext = createContext();
 
 const NodeContextProvider = (props) => {
     const [node,setNode]=useState([]);
-    console.log(node);
+
+    const addNode = (nodes) => {
+        setNode([...node, {nodes}])
+    }
 
     return ( 
         <NodeContext.Provider value={{node,setNode}}>

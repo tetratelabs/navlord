@@ -1,5 +1,5 @@
 export const diagramData = [
-    {
+    { 
         diagramid: "L1-M",
         title: "Tetrate",
         objects: [

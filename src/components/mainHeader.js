@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import Navigation from "./navigation";
-import { v4 as uuidv4 } from "uuid";
-// import MapHotspots from "./mapHotspots";
 import Illustration from "./illustration";
 import GraphContextProvider from "./contexts/graphContext";
 import Grid from "./grid";
-import Hotspot from "./hotspot";
-import Jigsaw from "../tetrateJigsaw";
+import Jigsaw from "./tetrateJigsaw";
 
 const MainHeader = () => {
 
