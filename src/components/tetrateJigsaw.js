@@ -1,11 +1,9 @@
 import React, { useState, useContext } from "react";
 import { GraphContext } from "./contexts/graphContext";
-import Navigation from "./navigation";
-import { v4 as uuidv4 } from "uuid";
-import Hotspot from "./hotspot";
 import Resources from "./resources";
 import { NodeContext } from "./contexts/nodeContext";
 import InfotypeBar from "./infotype";
+import ResourceBar from "./resourceCon";
 
 const Jigsaw = ({grid}) => {
 
@@ -70,38 +68,6 @@ const Jigsaw = ({grid}) => {
     };
 
     let res = Resources(diagram);
-    let navData = res.map( nav=> {
-        return (
-            <div className="info-con" key={uuidv4}>
-                <a
-                    className="info"
-                    href={nav.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {/* <div className="info-img">
-                        <img src={Tetrate} alt="Tetrate logo" />
-                    </div> */}
-                    <div>
-                        <h3 className="info-title">{nav.title} </h3>
-                        <p className="info-overview"> {nav.overview}</p>
-                    </div>
-                </a>
-            </div>
-            
-        );
-    })
-    
-    // console.log(res);
-    // let navData = Navigation(diagram);
-
-    // const hotspots = navData.objects.map((nav) => {
-    //     return (
-    //         <div key={uuidv4()}>
-    //             <Hotspot node={nav} />
-    //         </div>
-    //     );
-    // });
 
     return (
         <div>
@@ -166,8 +132,7 @@ const Jigsaw = ({grid}) => {
             </svg>
 
            <InfotypeBar />
-
-            <div className="content-con">{navData}</div>
+           <ResourceBar res={res}/>
         </div>
     );
 };
