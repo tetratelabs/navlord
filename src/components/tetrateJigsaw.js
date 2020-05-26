@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { GraphContext } from "./contexts/graphContext";
 import Resources from "./resources";
-import { NodeContext } from "./contexts/nodeContext";
 import InfotypeBar from "./infotype";
 import ResourceBar from "./resourceCon";
 
@@ -17,7 +16,6 @@ const Jigsaw = ({grid}) => {
     const [hover3, setHover3] = useState(false);
 
     const { setDraw1, draw1, setDraw2 } = useContext(GraphContext);
-    const { setNode } = useContext(NodeContext);
 
     const handleClick1 = () => {
         setDiagram("Envoy");

@@ -1,6 +1,7 @@
 import React from 'react';
 import { v4 as uuidv4 } from "uuid";
 import Matt from "../assets/matt-klein.jpg";
+import Play from "../assets/play-button.svg";
 
 const ResourceBar = ({res}) => {
 
@@ -16,6 +17,10 @@ const ResourceBar = ({res}) => {
                         <img src={Matt} alt="Matt Klein" />
                     </div>
                     <div className="info">
+                        <div className="info-extra">
+                            <img src={Play} alt="Play Icon" />
+                            <p>Play Time: 5 mins</p>
+                        </div>
                         <h3 className="info-title">{nav.title} </h3>
                         <p className="info-overview"> {nav.overview}</p>
                     </div>

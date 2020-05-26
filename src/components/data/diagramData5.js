@@ -71,7 +71,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 7,
         title: "David Ferraiolo at Service Mesh Day",
-        nodetype: "NGAC",
+        nodetype: "Tetrate",
         overview:
             "David of NIST walks through Next Generation Access Control (NGAC), a new approach to delegating and querying access privileges with fine-grained policies.",
         tags: "event;talk-videos;nist;ngac",

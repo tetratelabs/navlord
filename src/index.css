@@ -138,11 +138,12 @@ body {
   font-size: 18pt;
   border: none;
   outline: none;
-  /* border-bottom: 2px solid black; */
+  /* border-bottom: 1px solid black; */
   font-weight: 150;
   box-sizing: border-box;
   background-color: #f2f2f2;
-  margin-inline: 8px;
+  margin-inline: 12px;
+
 }
 
 .infotype-on {
@@ -178,7 +179,7 @@ body {
 }
 
 .info-con{
-  width: 512px;
+  width: 360px;
   min-width: 256px;
   padding: 8px;
   box-sizing: border-box;
@@ -194,7 +195,7 @@ body {
 
 }
  .info-con:hover {
-  width: 512px;
+  width: 360px;
   padding: 8px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -216,23 +217,44 @@ body {
  }
 
  .info{
-   width: 75%;
+   width: 80%;
    position: relative;
    left: 10% ;
    display: flex;
    flex-direction: column;
+   /* border: 1px solid black; */
  }
 
  .info-title{
    color: #000;
    font-size: 16pt;
+   margin: auto 0;
    text-align: left;
+   /* border: 1px solid black; */
+ }
+
+ .info-extra {
+   width: 100%;
+   height: 36px;
+   /* border: 1px solid black; */
+   text-align: left;
+   display: flex;
+   flex-direction: row;
+   color: black;
+ }
+
+ .info-extra img {
+   width: 18px;
+   height: auto;
+   margin-inline-end: 8px;
+   /* border: 1px solid black; */
  }
 
  .info-overview{
   color: #000;
-  width: 80%;
+  width: 100%;
   text-align: left;
+  /* border: 1px solid black; */
 }
 
  .info-img img{
