@@ -1,3 +1,16 @@
+import Chris from "../../assets/Chris.jpg";
+import Matt from "../../assets/matt-klein.jpg";
+import David from "../../assets/David.jpg";
+import Suresh from "../../assets/Suresh.jpg";
+import Liam from "../../assets/Liam.jpg";
+import Zack from "../../assets/Zack.jpg";
+import Varun from "../../assets/Varun.jpg";
+import Louis from "../../assets/Louis.jpg";
+import Shri from "../../assets/ShriLouis.jpg";
+import Larry from "../../assets/Larry.jpg";
+import Eric from "../../assets/Eric.jpg";
+import Play from "../../assets/play-button.svg";
+
 export const diagramData = [
     {
         infotype: "Papers and Guides",
@@ -38,6 +51,7 @@ export const diagramData = [
         infoid: 4,
         title: "Matt Klein at Service Mesh Day",
         nodetype: "Envoy",
+        pic: Matt,
         overview:
             "Envoy creator Matt Klein (Lyft) advises organizations starting with service mesh to make changes incrementally, to solve problems one piece at a time.",
         tags: "event;talk-videos;service-mesh;envoy",
@@ -48,6 +62,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 5,
         title: "Chris Aniszczyk at Service Mesh Day",
+        pic: Chris,
         nodetype: "Tetrate",
         overview:
             "As companies adopt Kubernetes and reevaluate their architectures, Chris Aniszczyk, CTO/COO of the Cloud Native Computing Foundation predicts they'll look increasingly to mesh to provide observability.",
@@ -61,6 +76,7 @@ export const diagramData = [
         infoid: 6,
         title: "Suresh Visvanathan at Service Mesh Day",
         nodetype: "Tetrate",
+        pic: Suresh,
         overview:
             "Suresh describes how Verizon media has been using service mesh to secure traffic flow with MTLS without code changes, distribute tracing to troubleshoot, and more.",
         tags: "event;talk-videos;service-mesh",
@@ -72,6 +88,7 @@ export const diagramData = [
         infoid: 7,
         title: "David Ferraiolo at Service Mesh Day",
         nodetype: "Tetrate",
+        pic: David,
         overview:
             "David of NIST walks through Next Generation Access Control (NGAC), a new approach to delegating and querying access privileges with fine-grained policies.",
         tags: "event;talk-videos;nist;ngac",
@@ -83,6 +100,7 @@ export const diagramData = [
         infoid: 8,
         title: "Louis Ryan at Service Mesh Day",
         nodetype: "Tetrate",
+        pic: Louis,
         overview:
             "Louis Ryan of Google explains how service mesh delivers flexibility and control to app developers and administrators and operators abstracting the network's control plane and enabling the enterprise.",
         tags: "event;talk-videos;service-mesh;network",
@@ -94,6 +112,7 @@ export const diagramData = [
         infoid: 9,
         title: "Larry Peterson at Service Mesh Day",
         nodetype: "Tetrate",
+        pic: Larry,
         overview:
             "Larry Peterson of ONFtalks about federating service meshes and the challenges ahead for building next generation applications.",
         tags: "event;talk-videos;service-mesh",
@@ -105,6 +124,7 @@ export const diagramData = [
         infoid: 10,
         title: "Eric Brewer at Service Mesh Day",
         nodetype: "Tetrate",
+        pic: Eric,
         overview:
             "UC Berkeley’s Eric Brewer helps avert breakdowns with canary testing and progressive rollouts.",
         tags: "event;talk-videos;canary-testing",
@@ -116,6 +136,7 @@ export const diagramData = [
         infoid: 11,
         title: "An Overview of Istio Mesh",
         nodetype: "Istio",
+        pic: Shri,
         overview:
             "Istio: Weaving the Service Mesh. By Shriram Rajagopalan & Louis Ryan",
         tags: "event;talk-videos;service-mesh;istio",
@@ -127,6 +148,7 @@ export const diagramData = [
         infoid: 12,
         title: "Debugging Istio Networking",
         nodetype: "Istio",
+        pic: Liam,
         overview:
             "Liam White explains how to debug Istio to test reliability and functions of Istio components.",
         tags: "event;talk-videos;istio",
@@ -139,6 +161,7 @@ export const diagramData = [
         title:
             "Connecting, Managing, Observing, and Securing Services",
         nodetype: "Tetrate",
+        pic: Zack,
         overview:
             "Zack Butcher talks about how a service mesh helps with the transition from monoliths to microservices to empower the organization.",
         tags:
@@ -151,6 +174,7 @@ export const diagramData = [
         infoid: 14,
         title: "GitOps for Istio",
         nodetype: "Istio",
+        pic: Varun,
         overview:
             "Learn how to manage Istio config like managing code. Varun Talwar's Kubecon Europe 2018 talk.",
         tags: "event;talk-videos;istio;kubecon",

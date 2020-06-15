@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   
 }
 
@@ -124,14 +124,18 @@ body {
   height: 48px;
   position: absolute;
   top: 456px;
-
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
 
-  overflow: scroll;
+  overflow-x: scroll;
 
+}
+
+.infotype-con::-webkit-scrollbar {
+  display: none;
 }
 
 .infotype {
@@ -141,9 +145,9 @@ body {
   /* border-bottom: 1px solid black; */
   font-weight: 150;
   box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: white;
   margin-inline: 12px;
-
+  border-radius: 2px 2px 0 0;
 }
 
 .infotype-on {
@@ -152,9 +156,9 @@ body {
   outline:none;
   border-bottom: 4px solid #ff590d;
   font-weight: 150;
-  background-color: #f2f2f2;
+  background-color: white;
   box-sizing: border-box;
-
+  border-radius: 2px 2px 0 0;
   margin-inline: 12px;
 }
 

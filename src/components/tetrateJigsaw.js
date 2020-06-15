@@ -1,13 +1,15 @@
 import React, { useState, useContext } from "react";
 import { GraphContext } from "./contexts/graphContext";
+import InfoContextProvider from "./contexts/infoContext";
 import Resources from "./resources";
-import InfotypeBar from "./infotype";
+import InfotypeBar from "./infotypeCon";
 import ResourceBar from "./resourceCon";
+import { ResourceContext } from "./contexts/resourceContext";
 
 const Jigsaw = ({grid}) => {
 
-    const [diagram, setDiagram] = useState("Tetrate");
-    const [manage, setManage]= useState(true);
+    const {addRes} = useContext(ResourceContext);
+    const [manage, setManage]= useState(false);
     const [control, setControl]= useState(false);
     const [data, setData]= useState(false);
 
@@ -18,7 +20,7 @@ const Jigsaw = ({grid}) => {
     const { setDraw1, draw1, setDraw2 } = useContext(GraphContext);
 
     const handleClick1 = () => {
-        setDiagram("Envoy");
+        addRes ("Envoy");
         setDraw2(true);
         grid('grid3');
         
@@ -28,7 +30,7 @@ const Jigsaw = ({grid}) => {
     };
 
     const handleClick2 = () => {
-        setDiagram("Istio");
+        addRes ("Istio");
         setDraw2(true);
         grid('grid2');
 
@@ -38,7 +40,7 @@ const Jigsaw = ({grid}) => {
     };
 
     const handleClick3 = () => {
-        setDiagram("Tetrate");
+        addRes ("Tetrate");
         setDraw2(true);
         grid('grid1');
 
@@ -64,8 +66,6 @@ const Jigsaw = ({grid}) => {
         setDraw1(!draw1);
         setDraw2(false);
     };
-
-    let res = Resources(diagram);
 
     return (
         <div>
@@ -128,9 +128,11 @@ const Jigsaw = ({grid}) => {
                     </tspan>
                 </text>
             </svg>
-
-           <InfotypeBar />
-           <ResourceBar res={res}/>
+            <InfoContextProvider>
+                <InfotypeBar />
+                <ResourceBar />
+           </InfoContextProvider> 
+           
         </div>
     );
 };

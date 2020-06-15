@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
 import Matt from "../assets/matt-klein.jpg";
 import Play from "../assets/play-button.svg";
+import { InfoContext } from './contexts/infoContext';
+import { ResourceContext } from './contexts/resourceContext';
 
-const ResourceBar = ({res}) => {
+const ResourceBar = () => {
 
-    let navData = res.map( nav=> {
+    const {resType}= useContext(InfoContext);
+    const {res} = useContext(ResourceContext);
+    let cards;
+    if(resType ==="All"){
+        cards = res;
+    }else {
+        cards = resType;
+    }
+
+    let navData = cards.map( nav=> {
         return (
             <button className="info-con" key={uuidv4}>
                 <a
@@ -14,7 +25,7 @@ const ResourceBar = ({res}) => {
                     rel="noopener noreferrer"
                 >
                     <div className="info-img">
-                        <img src={Matt} alt="Matt Klein" />
+                        <img src={nav.pic} alt="Matt Klein" />
                     </div>
                     <div className="info">
                         <div className="info-extra">

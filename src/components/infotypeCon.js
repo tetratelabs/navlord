@@ -1,6 +1,10 @@
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
+import { InfoContext } from "./contexts/infoContext";
+import { ResourceContext } from "./contexts/resourceContext";
 
 const InfotypeBar = () => {
+
+    const {res} = useContext(ResourceContext);
 
     const [all, setAll]= useState(true);
     const [videos, setVideos]= useState(false);
@@ -8,12 +12,16 @@ const InfotypeBar = () => {
     const [white, setWhite]= useState(false);
     const [pod, setPod]= useState(false);
 
+    const {addResType} = useContext(InfoContext);
+
+
     const handleAll = ()=> {
         setAll(true);
         setGuides(false);
         setVideos(false);
         setWhite(false);
         setPod(false);
+        addResType (res, "All");
     }
 
     const handleGuides = ()=> {
@@ -22,6 +30,7 @@ const InfotypeBar = () => {
         setVideos(false);
         setWhite(false);
         setPod(false);
+        addResType (res, "Papers and Guides");
     }
 
     const handleVideos = ()=> {
@@ -30,6 +39,7 @@ const InfotypeBar = () => {
         setVideos(true);
         setWhite(false);
         setPod(false);
+        addResType (res, "Talks and Videos");
     }
 
     const handleWhite = ()=> {
@@ -38,6 +48,7 @@ const InfotypeBar = () => {
         setVideos(false);
         setWhite(true);
         setPod(false);
+        addResType (res, "Whitepapers");
     }
 
     const handlePod = ()=> {
@@ -46,6 +57,7 @@ const InfotypeBar = () => {
         setVideos(false);
         setWhite(false);
         setPod(true);
+        addResType (res, "Podcasts");
     }
 
     return (
