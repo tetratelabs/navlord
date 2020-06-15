@@ -68,14 +68,14 @@ const Jigsaw = ({grid}) => {
         setDraw2(false);
     };
 
-    const handleReset = ()=> {
+    // const handleReset = ()=> {
 
-        setManage(false);
-        setControl(false);
-        setData(false);
+    //     setManage(false);
+    //     setControl(false);
+    //     setData(false);
 
-        setRes (diagramData);
-    }
+    //     setRes (diagramData);
+    // }
 
     return (
         <div>
@@ -139,9 +139,9 @@ const Jigsaw = ({grid}) => {
                 </text>
             </svg>
 
-            <button className="reset" onClick={handleReset}>
+            {/* <button className="reset" onClick={handleReset}>
                 <img src={refresh} alt="Refresh icon" />
-            </button>
+            </button> */}
 
             <InfoContextProvider>
                 <InfotypeBar />
