@@ -303,3 +303,40 @@ body {
   stroke-dashoffset: 0%;
  transition: ease-in-out all 0.5s;
 }
+
+.reset {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-top: 12px;
+  border: none;
+  background-color: #FFF6E9;
+  text-align: center;
+
+  position: absolute;
+  top: 340px;
+  left: 50%;
+  transition: 0.3s all ease-out;
+  transform: translateX(-50%);
+}
+
+.reset img {
+  width: 28px;
+  height: 28px;
+}
+
+.reset:hover {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-top: 12px;
+  border: none;
+  background-color: #ff590d;
+  text-align: center;
+
+  position: absolute;
+  top: 340px;
+  left: 50%;
+  transition: 0.3s all ease-out;
+  transform: translateX(-50%) rotatez(180deg);
+}

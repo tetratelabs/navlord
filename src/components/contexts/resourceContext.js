@@ -15,7 +15,7 @@ const ResourceContextProvider = (props) => {
      }
 
     return ( 
-        <ResourceContext.Provider value = {{res, addRes}}>
+        <ResourceContext.Provider value = {{res, addRes, setRes}}>
             {props.children}
         </ResourceContext.Provider>
      );

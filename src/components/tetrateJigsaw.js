@@ -1,14 +1,15 @@
 import React, { useState, useContext } from "react";
 import { GraphContext } from "./contexts/graphContext";
 import InfoContextProvider from "./contexts/infoContext";
-import Resources from "./resources";
 import InfotypeBar from "./infotypeCon";
 import ResourceBar from "./resourceCon";
 import { ResourceContext } from "./contexts/resourceContext";
+import refresh from "../assets/refresh.svg";
+import { diagramData } from "./data/diagramData5";
 
 const Jigsaw = ({grid}) => {
 
-    const {addRes} = useContext(ResourceContext);
+    const {addRes, setRes} = useContext(ResourceContext);
     const [manage, setManage]= useState(false);
     const [control, setControl]= useState(false);
     const [data, setData]= useState(false);
@@ -66,6 +67,15 @@ const Jigsaw = ({grid}) => {
         setDraw1(!draw1);
         setDraw2(false);
     };
+
+    const handleReset = ()=> {
+
+        setManage(false);
+        setControl(false);
+        setData(false);
+
+        setRes (diagramData);
+    }
 
     return (
         <div>
@@ -128,6 +138,11 @@ const Jigsaw = ({grid}) => {
                     </tspan>
                 </text>
             </svg>
+
+            <button className="reset" onClick={handleReset}>
+                <img src={refresh} alt="Refresh icon" />
+            </button>
+
             <InfoContextProvider>
                 <InfotypeBar />
                 <ResourceBar />
