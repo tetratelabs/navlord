@@ -29,8 +29,8 @@ const ResourceBar = () => {
                     </div>
                     <div className="info">
                         <div className="info-extra">
-                            <img src={Play} alt="Play Icon" />
-                            <p>Play Time: 5 mins</p>
+                            <img src={nav.icon} alt="Play Icon" />
+                            <p>Time: {nav.time} mins</p>
                         </div>
                         <h3 className="info-title">{nav.title} </h3>
                         <p className="info-overview"> {nav.overview}</p>
