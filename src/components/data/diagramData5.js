@@ -66,7 +66,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 4,
-        title: "Matt Klein at Service Mesh Day",
+        title: "Starting out with Service Mesh",
         nodetype: "Envoy",
         pic: Matt,
         icon: Play,
@@ -80,7 +80,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 5,
-        title: "Chris Aniszczyk at Service Mesh Day",
+        title: "Adopting Kubernetes? You'll need observability for that.",
         pic: Chris,
         icon: Play,
         time: 4,
@@ -95,7 +95,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 6,
-        title: "Suresh Visvanathan at Service Mesh Day",
+        title: "Use Case: How Verizon used Service Mesh for mTLS and more",
         nodetype: "Tetrate",
         pic: Suresh,
         icon: Play,
@@ -109,7 +109,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 7,
-        title: "David Ferraiolo at Service Mesh Day",
+        title: "Intro to Next Generation Access Control (NGAC) with David Ferraiolo of NIST",
         nodetype: "Tetrate",
         pic: David,
         icon: Play,
@@ -123,7 +123,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 8,
-        title: "Louis Ryan at Service Mesh Day",
+        title: "Service Mesh: Decoupling of Dev and Network Ops",
         nodetype: "Tetrate",
         pic: Louis,
         icon: Play,
@@ -151,7 +151,7 @@ export const diagramData = [
     {
         infotype: "Talks and Videos",
         infoid: 10,
-        title: "Eric Brewer at Service Mesh Day",
+        title: "Using Service Mesh for Resilience",
         nodetype: "Tetrate",
         pic: Eric,
         icon: Play,
@@ -253,7 +253,7 @@ export const diagramData = [
     {
         infotype: "Podcasts",
         infoid: 17,
-        title: "Karl Stoney Podcast",
+        title: "Podcast: How Autotrader used Service Mesh for mTLS and more (with Karl Stoney)",
         nodetype: "Istio",
         pic: autotrader,
         icon: Play,
@@ -267,7 +267,7 @@ export const diagramData = [
     {
         infotype: "Podcasts",
         infoid: 18,
-        title: "Louis & Varun Podcast",
+        title: "Podcast: The Basics of Istio with Creators Louis Ryan and Varun Talwar",
         nodetype: "Istio",
         pic: varunlouis,
         icon: Play,

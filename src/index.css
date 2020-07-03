@@ -8,6 +8,11 @@ body {
     /* background-color: #f2f2f2; */
 }
 
+@font-face {
+    font-family: circular;
+    src: url(./assets/CircularStd-Bold.woff2);
+  }
+
 .mainHeader {
     width: 100%;
     height: 528px;
@@ -111,6 +116,7 @@ body {
 .app-name {
   position: absolute;
   top: 332px;
+  font-family: circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
@@ -264,8 +270,9 @@ body {
 
 .info-title {
     color: #000;
+    font-family: circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16pt;
-    margin: auto 0;
+    margin: 0 0;
     text-align: left;
     /* border: 1px solid black; */
 }
@@ -273,6 +280,7 @@ body {
 .info-title-on {
     color: #ff590d;
     font-size: 16pt;
+    font-family: circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: auto 0;
     text-align: left;
     /* border: 1px solid black; */
@@ -316,7 +324,7 @@ body {
 }
 
 .info-img {
-    align-self: center;
+    /* align-self: center; */
     filter: grayscale(100%);
 }
 
