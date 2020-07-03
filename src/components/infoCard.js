@@ -16,7 +16,7 @@ const InfoCard = ({nav}) => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <div className="info-img">
+                    <div className={hover?"info-img-on":"info-img"}>
                         <img src={nav.pic} alt="Matt Klein" />
                     </div>
                     <div className="info">

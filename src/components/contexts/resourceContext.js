@@ -5,6 +5,7 @@ export const ResourceContext = createContext();
 
 const ResourceContextProvider = (props) => {
      const [res, setRes] = useState(diagramData);
+     console.log(res);
 
      const addRes = (type)=> {
         let results = diagramData.filter(content => 

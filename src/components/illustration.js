@@ -3,7 +3,8 @@ import { GraphContext } from "./contexts/graphContext";
 
 const Illustration = () => {
     const { draw1 } = useContext(GraphContext);
-    const { draw2 } = useContext(GraphContext);
+    const { draw2 } = useContext(GraphContext); 
+    const { draw3 } = useContext(GraphContext); 
 
     return (
         <svg
@@ -16,7 +17,7 @@ const Illustration = () => {
                 transform="translate(283.198 1)"
                 fill="none"
                 stroke="#ff590d"
-                className={draw2 ? "fractal2-open" : "fractal2-close"}
+                className={draw3 ? "fractal2-open" : "fractal2-close"}
             >
                 <circle cx="114.5" cy="114.5" r="114.5" stroke="none" />
                 <circle cx="114.5" cy="114.5" r="114" />
@@ -25,7 +26,7 @@ const Illustration = () => {
                 transform="translate(283.198 230)"
                 fill="none"
                 stroke="#ff590d"
-                className={draw2 ? "fractal2-open" : "fractal2-close"}
+                className={draw3 ? "fractal2-open" : "fractal2-close"}
             >
                 <circle cx="114.5" cy="114.5" r="114.5" stroke="none" />
                 <circle cx="114.5" cy="114.5" r="114" />
@@ -34,7 +35,7 @@ const Illustration = () => {
                 transform="translate(397.198)"
                 fill="none"
                 stroke="#ff590d"
-                visibility={draw2?"visible":"hidden"}
+                visibility={draw3?"visible":"hidden"}
             >
                 <circle cx="229" cy="229" r="229" stroke="none" />
                 <circle cx="229" cy="229" r="228.5" />
@@ -43,7 +44,7 @@ const Illustration = () => {
                 transform="translate(741.198)"
                 fill="none"
                 stroke="#ff590d"
-                className={draw2 ? "fractal2-open" : "fractal2-close"}
+                className={draw3 ? "fractal2-open" : "fractal2-close"}
             >
                 <circle cx="114.5" cy="114.5" r="114.5" stroke="none" />
                 <circle cx="114.5" cy="114.5" r="114" />
@@ -52,7 +53,7 @@ const Illustration = () => {
                 transform="translate(741.198 229)"
                 fill="none"
                 stroke="#ff590d"
-                className={draw2 ? "fractal2-open" : "fractal2-close"}
+                className={draw3 ? "fractal2-open" : "fractal2-close"}
             >
                 <circle cx="114.5" cy="114.5" r="114.5" stroke="none" />
                 <circle cx="114.5" cy="114.5" r="114" />
@@ -129,7 +130,7 @@ const Illustration = () => {
             <g
                 fill="none"
                 stroke="#ff590d"
-                className={draw1 ? "fractal-open" : "fractal-close"}
+                className={draw3 ? "fractal-open" : "fractal-close"}
             >
                 <g transform="translate(1086.198 169)">
                     <circle cx="24" cy="24" r="24" stroke="none" />
@@ -182,7 +183,7 @@ const Illustration = () => {
                 transform={draw2 ? "translate(385.931 222)" : "translate(0 222"}
                 fill="#ff590d"
                 stroke="#ff590d"
-                className={draw2 ? "fractal2-open" : "fractal2-close"}
+                className={draw3 ? "fractal2-open" : "fractal2-close"}
             >
                 <circle cx="8" cy="8" r="8" stroke="none" />
                 <circle cx="8" cy="8" r="7.5" fill="none" />

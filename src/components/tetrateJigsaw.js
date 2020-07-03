@@ -18,11 +18,13 @@ const Jigsaw = ({grid}) => {
     const [hover2, setHover2] = useState(false);
     const [hover3, setHover3] = useState(false);
 
-    const { setDraw1, draw1, setDraw2 } = useContext(GraphContext);
+    const { setDraw1, setDraw2, setDraw3 } = useContext(GraphContext);
 
     const handleClick1 = () => {
         addRes ("Envoy");
-        setDraw2(true);
+        setDraw3(false);
+        setDraw2(false);
+        setDraw1(true);
         grid('grid3');
         
         setManage(false);
@@ -32,7 +34,9 @@ const Jigsaw = ({grid}) => {
 
     const handleClick2 = () => {
         addRes ("Istio");
+        setDraw3(false);
         setDraw2(true);
+        setDraw1(true);
         grid('grid2');
 
         setManage(false);
@@ -42,7 +46,9 @@ const Jigsaw = ({grid}) => {
 
     const handleClick3 = () => {
         addRes ("Tetrate");
+        setDraw3(true);
         setDraw2(true);
+        setDraw1(true);
         grid('grid1');
 
         setManage(true);
@@ -52,30 +58,28 @@ const Jigsaw = ({grid}) => {
 
     const handleHover1 = () => {
         setHover1(!hover1);
-        setDraw1(!draw1);
-        setDraw2(false);
     };
 
     const handleHover2 = () => {
         setHover2(!hover2);
-        setDraw1(!draw1);
-        setDraw2(false);
     };
 
     const handleHover3 = () => {
         setHover3(!hover3);
-        setDraw1(!draw1);
-        setDraw2(false);
     };
 
-    // const handleReset = ()=> {
+    const handleReset = ()=> {
 
-    //     setManage(false);
-    //     setControl(false);
-    //     setData(false);
+        setManage(false);
+        setControl(false);
+        setData(false);
 
-    //     setRes (diagramData);
-    // }
+        setDraw3(false);
+        setDraw2(false);
+        setDraw1(false);
+
+        setRes (diagramData);
+    }
 
     return (
         <div>
@@ -139,9 +143,13 @@ const Jigsaw = ({grid}) => {
                 </text>
             </svg>
 
-            {/* <button className="reset" onClick={handleReset}>
+            <h1 className={manage||control||data? "app-name-off":"app-name"}>
+                Tetrate Library 
+            </h1>
+
+            <button className={manage||control||data? "reset":"reset-off"} onClick={handleReset}>
                 <img src={refresh} alt="Refresh icon" />
-            </button> */}
+            </button>
 
             <InfoContextProvider>
                 <InfotypeBar />
