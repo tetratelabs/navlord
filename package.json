@@ -2,13 +2,14 @@
   "name": "navlord",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.tetrate.io.dream.website/tetrate-library-draft/",
+  // "homepage": "http://www.tetrate.io/build-react-library/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
     "uuid": "^7.0.2"
   },
