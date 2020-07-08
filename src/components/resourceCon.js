@@ -1,29 +1,29 @@
-import React, { useContext} from 'react';
-import { InfoContext } from './contexts/infoContext';
-import { ResourceContext } from './contexts/resourceContext';
-import InfoCard from './infoCard';
+import React, { useContext } from "react";
+import { InfoContext } from "./contexts/infoContext";
+import { ResourceContext } from "./contexts/resourceContext";
+import InfoCard from "./infoCard";
+import Footer from "./footer";
 
 const ResourceBar = () => {
-
-    const {resType}= useContext(InfoContext);
-    const {res} = useContext(ResourceContext);
+    const { resType } = useContext(InfoContext);
+    const { res } = useContext(ResourceContext);
     let cards;
-    if(resType ==="All"){
+    if (resType === "All") {
         cards = res;
-    }else {
+    } else {
         cards = resType;
     }
 
-    let navData = cards.map( nav=> {
-        return (
-            <InfoCard nav={nav} />
-            
-        );
-    })
+    let navData = cards.map((nav) => {
+        return <InfoCard nav={nav} />;
+    });
 
-    return ( 
-        <div className="content-con">{navData}</div>
-     );
-}
- 
+    return (
+        <div>
+            <div className="content-con">{navData}</div>
+            <Footer />
+        </div>
+    );
+};
+
 export default ResourceBar;
