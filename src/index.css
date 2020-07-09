@@ -134,7 +134,7 @@ body {
     padding-bottom: 1px;
     border-radius: 2px;
     margin-top: 8px;
-    box-shadow: 4px 0 4px #000;
+    box-shadow: 4px 4px 4px 4px #00000020;
 }
 
 .dropdown p:hover {
@@ -190,7 +190,7 @@ body {
 
 @media screen and (max-width: 640px) {
     .footer {
-        height: 1080px;
+        height: 1200px;
         width: 100%;
         background-color: #000717;
         position: relative;
@@ -206,7 +206,7 @@ body {
         display: block;
         background-color: #000717;
         width: 200%;
-        height: 1080px;
+        height: 1200px;
         position: absolute;
         left: -200%;
     }
@@ -216,7 +216,7 @@ body {
         display: block;
         background-color: #000717;
         width: 200%;
-        height: 1080px;
+        height: 1200px;
         position: absolute;
         top: 0;
         right: -200%;
@@ -226,7 +226,7 @@ body {
 @media screen and (min-width: 641px){
     .footer {
         width: 100%;
-        height: 560px;
+        height: 500px;
         background-color: #000717;
         position: relative;
         top: 300px;
@@ -241,7 +241,7 @@ body {
         display: block;
         background-color: #000717;
         width: 200%;
-        height: 560px;
+        height: 500px;
         position: absolute;
         left: -200%;
     }
@@ -251,7 +251,7 @@ body {
         display: block;
         background-color: #000717;
         width: 200%;
-        height: 560px;
+        height: 500px;
         position: absolute;
         top: 0;
         right: -200%;
@@ -272,12 +272,15 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #f05623;
 }
 
 .footer-blocks {
     width: 240px;
     text-align: left;
     margin-right: 24px;
+    margin-bottom: 8px;
 }
 
 .footer-blocks img {
@@ -292,6 +295,22 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.social-links img {
+    height: 20px;
+    margin-right: 16px;
+}
+
+.social-links img:hover {
+    cursor: pointer;
 }
 
 .footlink {
@@ -309,6 +328,39 @@ body {
     font-size: 20px;
     font-weight: 800;
 }
+
+.policies {
+    width: 100%;
+    position: relative;
+    top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+    font-size: 12px;
+    color: #f05623;
+}
+
+.policy-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.policy-links p {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.policy-links a {
+    color: white;
+}
+
+.policy-links a:hover {
+    cursor: pointer;
+    color: darkgrey;
+}
+
 
 .mainHeader {
     width: 100%;
@@ -512,7 +564,7 @@ body {
     box-sizing: border-box;
     position: relative;
     left: -10%;
-    top: 240px;
+    top: 200px;
     /* border: 1px solid #f05623; */
     display: flex;
     flex-direction: row;
