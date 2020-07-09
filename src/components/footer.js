@@ -1,20 +1,46 @@
 import React from "react";
 import logo from "../assets/tetratelogo.svg";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
+import twitter from "../assets/twitter.svg";
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="footContainer">
                 <div className="footer-blocks">
-                    <a
-                        href="http://tetrate.io.dream.website/"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={logo} alt="Tetrate Logo" />
-                    </a>
-                    <a></a>
-                    <a></a>
-                    <a></a>
+                    <div>
+                        <a
+                            href="http://tetrate.io.dream.website/"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={logo} alt="Tetrate Logo" />
+                        </a>
+                    </div>
+
+                    <div className="social-links">
+                        <a
+                            href="https://twitter.com/tetrateio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={twitter} alt="Twitter Logo" />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/company/tetrate/about/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={linkedin} alt="Linkedin Logo" />
+                        </a>
+                        <a
+                            href="https://github.com/tetratelabs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={github} alt="Github Logo" />
+                        </a>
+                    </div>
                 </div>
                 <div className="footer-blocks">
                     <p className="footHigh">Products</p>
@@ -98,6 +124,22 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Contact</p>
+                    </a>
+                </div>
+            </div>
+
+            <div className="policies">
+                <p>Copyright @Tetrate 2020. All rights reserved.</p>
+                <div className="policy-links">
+                    <a href="http://tetrate.io.dream.website/terms-and-conditions/"
+                        rel="noopener noreferrer">
+                        <p>Terms and Conditions</p>
+                    </a>
+                    <p>  and  </p>
+
+                    <a href="http://tetrate.io.dream.website/privacy/"
+                        rel="noopener noreferrer">
+                        <p>Privacy</p>
                     </a>
                 </div>
             </div>
