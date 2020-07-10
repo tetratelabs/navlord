@@ -57,6 +57,7 @@ body {
 .logo-holder {
     width: 50%;
     margin-top: 12px;
+    margin-left: 12px;
     display: flex;
     justify-content: flex-start;
 }
@@ -101,6 +102,12 @@ body {
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 720px){
+    .links-holder {
+        visibility: hidden;
+    }
 }
 
 .links-holder a {
