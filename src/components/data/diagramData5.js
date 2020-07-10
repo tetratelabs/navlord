@@ -32,23 +32,23 @@ export const diagramData = [
             "Tetrate provides certified, tested builds of Envoy proxy",
         tags: "envoy; intro",
         url:
-            "https://www.tetrate.io/blog/announcing-the-getenvoy-project/",
+            "http://tetrate.io/2019/07/16/announcing-getenvoy/",
     },
-    {
-        infotype: "Papers and Guides",
-        infoid: 2,
-        title:
-            "Case Study: NAV's Istio Deployment with Tetrate",
-        nodetype: "Istio",
-        pic: nav,
-        icon: read,
-        time: 5,
-        overview:
-            "See how Tetrate helps the Norwegian Labour and Welfare Administration (NAV) operationalize Istio.",
-        tags: "istio; install",
-        url:
-            "https://www.tetrate.io/blog/case-study-tetrate-resolves-the-complexities-of-navs-transition-to-istio/",
-    },
+    // {
+    //     infotype: "Papers and Guides",
+    //     infoid: 2,
+    //     title:
+    //         "Case Study: NAV's Istio Deployment with Tetrate",
+    //     nodetype: "Istio",
+    //     pic: nav,
+    //     icon: read,
+    //     time: 5,
+    //     overview:
+    //         "See how Tetrate helps the Norwegian Labour and Welfare Administration (NAV) operationalize Istio.",
+    //     tags: "istio; install",
+    //     url:
+    //         "https://www.tetrate.io/blog/case-study-tetrate-resolves-the-complexities-of-navs-transition-to-istio/",
+    // },
     {
         infotype: "Papers and Guides",
         infoid: 3,
@@ -262,7 +262,7 @@ export const diagramData = [
             "Autotrader UK’s Karl Stoney explains what led them to Istio, how they got more than they bargained for, and considerations that engineers should make before getting started with Istio.",
         tags: "podcast;istio",
         url:
-            "https://www.tetrate.io/blog/podcast_karl_stoney/",
+            "http://tetrate.io/2019/12/23/karl-stoney-podcast/",
     },
     {
         infotype: "Podcasts",
@@ -276,7 +276,7 @@ export const diagramData = [
             "The co-creators of Istio-- Louis Ryan of Google and Tetrate’s Varun Talwar-- discuss the key areas that Istio is designed to assist, dispel some common myths surrounding Istio, and offer their advice to those wishing to start out.",
         tags: "podcast;istio",
         url:
-            "https://www.tetrate.io/blog/podcast_louis_and_varun/",
+            "http://tetrate.io/2019/12/23/louis-ryan-varun-talwar-podcast/",
     }
 
 ];

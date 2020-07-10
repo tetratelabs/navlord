@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-blocks">
                     <div>
                         <a
-                            href="http://tetrate.io.dream.website/"
+                            href="http://tetrate.io/"
                             rel="noopener noreferrer"
                         >
                             <img src={logo} alt="Tetrate Logo" />
@@ -45,13 +45,13 @@ const Footer = () => {
                 <div className="footer-blocks">
                     <p className="footHigh">Products</p>
                     <a
-                        href="http://tetrate.io.dream.website/tetrate-service-bridge/"
+                        href="http://tetrate.io/tetrate-service-bridge/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Tetrate Service Bridge</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/tetrate-istio-subscription/"
+                        href="http://tetrate.io/tetrate-istio-subscription/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Tetrate Istio Subscription</p>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <p className="footHigh">Community</p>
 
                     <a
-                        href="http://tetrate.io.dream.website/open-source/"
+                        href="http://tetrate.io/open-source/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Open Source</p>
@@ -69,25 +69,25 @@ const Footer = () => {
                 <div className="footer-blocks">
                     <p className="footHigh">Learn</p>
                     <a
-                        href="http://tetrate.io.dream.website/istio-up-and-running/"
+                        href="http://tetrate.io/istio-up-and-running/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Istio: Up & Running</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/tetrate-library/"
+                        href="http://resources.tetrate.io"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Tetrate Library</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/learn-events/"
+                        href="http://tetrate.io/learn-events/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Events</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/blog/"
+                        href="http://tetrate.io/blog/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Blog</p>
@@ -96,31 +96,31 @@ const Footer = () => {
                 <div className="footer-blocks">
                     <p className="footHigh">Company</p>
                     <a
-                        href="http://tetrate.io.dream.website/about/"
+                        href="http://tetrate.io/about/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">About Us</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/team/"
+                        href="http://tetrate.io/team/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Team</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/careers/"
+                        href="http://tetrate.io/careers/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Careers</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/press/"
+                        href="http://tetrate.io/press/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Press</p>
                     </a>
                     <a
-                        href="http://tetrate.io.dream.website/contact-us/"
+                        href="http://tetrate.io/contact-us/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Contact</p>
@@ -131,13 +131,13 @@ const Footer = () => {
             <div className="policies">
                 <p>Copyright @Tetrate 2020. All rights reserved.</p>
                 <div className="policy-links">
-                    <a href="http://tetrate.io.dream.website/terms-and-conditions/"
+                    <a href="http://tetrate.io/terms-and-conditions/"
                         rel="noopener noreferrer">
                         <p>Terms and Conditions</p>
                     </a>
                     <p>  and  </p>
 
-                    <a href="http://tetrate.io.dream.website/privacy/"
+                    <a href="http://tetrate.io/privacy/"
                         rel="noopener noreferrer">
                         <p>Privacy</p>
                     </a>
