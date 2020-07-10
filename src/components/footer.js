@@ -7,7 +7,7 @@ import youtube from "../assets/youtube.svg";
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="menu">
             <div className="footContainer">
                 <div className="footer-blocks">
                     <div>
