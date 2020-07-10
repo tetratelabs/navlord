@@ -3,6 +3,7 @@ import logo from "../assets/tetratelogo.svg";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
+import youtube from "../assets/youtube.svg";
 
 const Footer = () => {
     return (
@@ -25,6 +26,13 @@ const Footer = () => {
                             rel="noopener noreferrer"
                         >
                             <img src={twitter} alt="Twitter Logo" />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/channel/UCtV2o3OvEH6U3DQ0-_7chNw"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src={youtube} alt="Twitter Logo" />
                         </a>
                         <a
                             href="https://www.linkedin.com/company/tetrate/about/"

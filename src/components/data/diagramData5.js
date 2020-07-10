@@ -32,7 +32,7 @@ export const diagramData = [
             "Tetrate provides certified, tested builds of Envoy proxy",
         tags: "envoy; intro",
         url:
-            "http://tetrate.io/2019/07/16/announcing-getenvoy/",
+            "http://tetrate.io/blog/announcing-getenvoy/",
     },
     // {
     //     infotype: "Papers and Guides",
@@ -262,7 +262,7 @@ export const diagramData = [
             "Autotrader UK’s Karl Stoney explains what led them to Istio, how they got more than they bargained for, and considerations that engineers should make before getting started with Istio.",
         tags: "podcast;istio",
         url:
-            "http://tetrate.io/2019/12/23/karl-stoney-podcast/",
+            "http://tetrate.io/blog/karl-stoney-podcast/",
     },
     {
         infotype: "Podcasts",
@@ -276,7 +276,7 @@ export const diagramData = [
             "The co-creators of Istio-- Louis Ryan of Google and Tetrate’s Varun Talwar-- discuss the key areas that Istio is designed to assist, dispel some common myths surrounding Istio, and offer their advice to those wishing to start out.",
         tags: "podcast;istio",
         url:
-            "http://tetrate.io/2019/12/23/louis-ryan-varun-talwar-podcast/",
+            "http://tetrate.io/blog/louis-ryan-varun-talwar-podcast/",
     }
 
 ];
