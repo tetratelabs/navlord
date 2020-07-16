@@ -15,8 +15,8 @@ body {
 }
 
 @font-face {
-    font-family: barlow;
-    src: url(./assets/Barlow-Medium.ttf);
+    font-family: circular-thin;
+    src: url(./assets/CircularStd-Book.woff2);
 }
 
 .header {
@@ -569,7 +569,7 @@ body {
 
 .infotype {
     font-size: 18pt;
-    font-family: barlow, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: circular-thin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: none;
     outline: none;
     /* border-bottom: 1px solid black; */
@@ -581,7 +581,7 @@ body {
 
 .infotype-on {
     font-size: 18pt;
-    font-family: barlow, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: circular-thin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: none;
     outline: none;
     border-bottom: 4px solid #ff590d;
@@ -685,7 +685,7 @@ body {
     display: flex;
     flex-direction: row;
     color: black;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    font-family: circular-thin, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -702,8 +702,9 @@ body {
     font-size: 14px;
     width: 100%;
     text-align: left;
-    font-family: barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: circular-thin, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
     /* border: 1px solid black; */
 }
 

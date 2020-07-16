@@ -96,7 +96,8 @@ const Jigsaw = ({grid}) => {
                     transform="translate(137.998 151.999)"
                     fill={hover1||data ? "#f8f8f8" : "#2b2b2b"}
                     fontSize="24"
-                    fontFamily="HelveticaNeue, Helvetica Neue"
+                    fontFamily="circular-thin, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+                    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif"
                     pointerEvents="none"
                 >
                     <tspan x="0" y="0">
@@ -115,7 +116,8 @@ const Jigsaw = ({grid}) => {
                     transform="translate(148.998 82.999)"
                     fill={hover2||control ? "#f8f8f8" : "#2b2b2b"}
                     fontSize="24"
-                    fontFamily="HelveticaNeue, Helvetica Neue"
+                    fontFamily="circular-thin, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+                    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif"
                     pointerEvents="none"
                 >
                     <tspan x="0" y="0">
@@ -134,7 +136,8 @@ const Jigsaw = ({grid}) => {
                     transform="translate(52.998 33.999)"
                     fill={hover3||manage ? "#f8f8f8" : "#2b2b2b"}
                     fontSize="24"
-                    fontFamily="HelveticaNeue, Helvetica Neue"
+                    fontFamily="circular-thin, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+                    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif"
                     pointerEvents="none"
                 >
                     <tspan x="0" y="0">
