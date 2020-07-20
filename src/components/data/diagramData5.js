@@ -12,7 +12,6 @@ import Eric from "../../assets/Eric.jpg";
 import Opencensus from "../../assets/Opencensus.jpg";
 import Eyeview from "../../assets/Eyeview.jpg";
 import getenvoy from "../../assets/getenvoy.jpg";
-import nav from "../../assets/nav.jpg";
 import amazoneks from "../../assets/amazoneks.jpg";
 import autotrader from "../../assets/autotrader.jpg";
 import varunlouis from "../../assets/varunlouis.jpg";
@@ -24,6 +23,7 @@ export const diagramData = [
         infotype: "Papers and Guides",
         infoid: 1,
         title: "Introducing GetEnvoy",
+        alt: "GetEnvoy",
         nodetype: "Envoy",
         pic: getenvoy,
         icon: read,
@@ -34,25 +34,11 @@ export const diagramData = [
         url:
             "http://tetrate.io/blog/announcing-getenvoy/",
     },
-    // {
-    //     infotype: "Papers and Guides",
-    //     infoid: 2,
-    //     title:
-    //         "Case Study: NAV's Istio Deployment with Tetrate",
-    //     nodetype: "Istio",
-    //     pic: nav,
-    //     icon: read,
-    //     time: 5,
-    //     overview:
-    //         "See how Tetrate helps the Norwegian Labour and Welfare Administration (NAV) operationalize Istio.",
-    //     tags: "istio; install",
-    //     url:
-    //         "https://www.tetrate.io/blog/case-study-tetrate-resolves-the-complexities-of-navs-transition-to-istio/",
-    // },
     {
         infotype: "Papers and Guides",
         infoid: 3,
         title: "Istio on EKS",
+        alt: "Istio on EKS",
         nodetype: "Istio",
         pic: amazoneks,
         icon: read,
@@ -67,6 +53,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 4,
         title: "Starting out with Service Mesh",
+        alt: "Matt Klein",
         nodetype: "Envoy",
         pic: Matt,
         icon: Play,
@@ -81,6 +68,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 5,
         title: "Adopting Kubernetes? You'll need observability for that.",
+        alt: "Chris Aniszczyk",
         pic: Chris,
         icon: Play,
         time: 4,
@@ -96,6 +84,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 6,
         title: "Use Case: How Verizon used Service Mesh for mTLS and more",
+        alt: "Suresh Viswanathan",
         nodetype: "Tetrate",
         pic: Suresh,
         icon: Play,
@@ -110,6 +99,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 7,
         title: "Intro to Next Generation Access Control (NGAC) with David Ferraiolo of NIST",
+        alt: "David Ferraiolo",
         nodetype: "Tetrate",
         pic: David,
         icon: Play,
@@ -124,6 +114,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 8,
         title: "Service Mesh: Decoupling of Dev and Network Ops",
+        alt: "Louis Ryan",
         nodetype: "Tetrate",
         pic: Louis,
         icon: Play,
@@ -138,6 +129,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 9,
         title: "Larry Peterson at Service Mesh Day",
+        alt: "Larry Peterson",
         nodetype: "Tetrate",
         pic: Larry,
         icon: Play,
@@ -152,6 +144,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 10,
         title: "Using Service Mesh for Resilience",
+        alt: "Eric Brewer",
         nodetype: "Tetrate",
         pic: Eric,
         icon: Play,
@@ -166,6 +159,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 11,
         title: "An Overview of Istio Mesh",
+        alt: "Shriram and Louis",
         nodetype: "Istio",
         pic: Shri,
         icon: Play,
@@ -180,6 +174,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 12,
         title: "Debugging Istio Networking",
+        alt: "Liam White",
         nodetype: "Istio",
         pic: Liam,
         icon: Play,
@@ -195,6 +190,7 @@ export const diagramData = [
         infoid: 13,
         title:
             "Connecting, Managing, Observing, and Securing Services",
+        alt: "Zack Butcher",
         nodetype: "Tetrate",
         pic: Zack,
         icon: Play,
@@ -210,6 +206,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 14,
         title: "GitOps for Istio",
+        alt: "Varun Talwar",
         nodetype: "Istio",
         pic: Varun,
         icon: Play,
@@ -225,6 +222,7 @@ export const diagramData = [
         infoid: 15,
         title:
             "Latency Analysis with Istio & OpenCensus",
+        alt: "Latency Analysis",
         nodetype: "Istio",
         pic: Opencensus,
         icon: Play,
@@ -240,6 +238,7 @@ export const diagramData = [
         infotype: "Talks and Videos",
         infoid: 16,
         title: "Istio - The Packet's-Eye View",
+        alt: "Istio Talk",
         nodetype: "Istio",
         pic: Eyeview,
         icon: Play,
@@ -254,6 +253,7 @@ export const diagramData = [
         infotype: "Podcasts",
         infoid: 17,
         title: "Podcast: How Autotrader used Service Mesh for mTLS and more (with Karl Stoney)",
+        alt: "Autotrader",
         nodetype: "Istio",
         pic: autotrader,
         icon: Play,
@@ -268,6 +268,7 @@ export const diagramData = [
         infotype: "Podcasts",
         infoid: 18,
         title: "Podcast: The Basics of Istio with Creators Louis Ryan and Varun Talwar",
+        alt: "Varun and Louis",
         nodetype: "Istio",
         pic: varunlouis,
         icon: Play,
