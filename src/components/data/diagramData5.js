@@ -15,24 +15,41 @@ import getenvoy from "../../assets/getenvoy.jpg";
 import amazoneks from "../../assets/amazoneks.jpg";
 import autotrader from "../../assets/autotrader.jpg";
 import varunlouis from "../../assets/varunlouis.jpg";
+import istioenvoy from "../../assets/istioenvoy.jpg";
+import servicebridge from "../../assets/servicebridge.jpg";
 import Play from "../../assets/play-button.svg";
 import read from "../../assets/read.svg";
 
 export const diagramData = [
     {
-        infotype: "Papers and Guides",
+        infotype: "Whitepapers",
         infoid: 1,
-        title: "Introducing GetEnvoy",
-        alt: "GetEnvoy",
-        nodetype: "Envoy",
-        pic: getenvoy,
+        title: "White Paper: Bridging Brownfield & Greenfield | Tetrate",
+        alt: "White Paper: Bridging Brownfield & Greenfield | Tetrate",
+        nodetype: "Tetrate",
+        pic: servicebridge,
         icon: read,
-        time: 3,
+        time: 10,
         overview:
-            "Tetrate provides certified, tested builds of Envoy proxy",
-        tags: "envoy; intro",
+            "Tetrate Service Bridge, powered by Istio and Envoy, is a self-service, multi-tenant platform to weave and manage the service mesh across VMs and Kubernetes clusters, on-prem and cloud. Developers, security engineers, and operations engineers across multiple teams can safely and securely manage their services without impacting others. A rich set of ecosystem integrations will simplify adoption in enterprise environments.",
+        tags: "service bridge; intro",
         url:
-            "http://tetrate.io/blog/announcing-getenvoy/",
+            "https://www.tetrate.io/white-paper-bridging-brownfield-greenfield/",
+    },
+    {
+        infotype: "Whitepapers",
+        infoid: 2,
+        title: "White Paper: Value of Istio & Envoy | Tetrate",
+        alt: "White Paper: Value of Istio & Envoy | Tetrate",
+        nodetype: "Tetrate",
+        pic: istioenvoy,
+        icon: read,
+        time: 10,
+        overview:
+            "The transition to service-based models driving industry advancement has inadvertently led to increased complexity in service management, networking, and security… problems only a service mesh can solve. Istio is currently the industry-leading open-source service mesh and relies on an Envoy proxy to support it. We will address the what, why, and how of an Istio—and Envoy-based service mesh.",
+        tags: "istio; envoy; intro",
+        url:
+            "https://www.tetrate.io/white-paper-value-of-istio-envoy/",
     },
     {
         infotype: "Papers and Guides",
@@ -50,8 +67,23 @@ export const diagramData = [
             "https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/",
     },
     {
-        infotype: "Talks and Videos",
+        infotype: "Papers and Guides",
         infoid: 4,
+        title: "Introducing GetEnvoy",
+        alt: "GetEnvoy",
+        nodetype: "Envoy",
+        pic: getenvoy,
+        icon: read,
+        time: 3,
+        overview:
+            "Tetrate provides certified, tested builds of Envoy proxy",
+        tags: "envoy; intro",
+        url:
+            "http://tetrate.io/blog/announcing-getenvoy/",
+    },
+    {
+        infotype: "Talks and Videos",
+        infoid: 5,
         title: "Starting out with Service Mesh",
         alt: "Matt Klein",
         nodetype: "Envoy",
@@ -66,7 +98,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 5,
+        infoid: 6,
         title: "Adopting Kubernetes? You'll need observability for that.",
         alt: "Chris Aniszczyk",
         pic: Chris,
@@ -82,7 +114,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 6,
+        infoid: 7,
         title: "Use Case: How Verizon used Service Mesh for mTLS and more",
         alt: "Suresh Viswanathan",
         nodetype: "Tetrate",
@@ -97,7 +129,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 7,
+        infoid: 8,
         title: "Intro to Next Generation Access Control (NGAC) with David Ferraiolo of NIST",
         alt: "David Ferraiolo",
         nodetype: "Tetrate",
@@ -112,7 +144,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 8,
+        infoid: 9,
         title: "Service Mesh: Decoupling of Dev and Network Ops",
         alt: "Louis Ryan",
         nodetype: "Tetrate",
@@ -127,7 +159,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 9,
+        infoid: 10,
         title: "Larry Peterson at Service Mesh Day",
         alt: "Larry Peterson",
         nodetype: "Tetrate",
@@ -142,7 +174,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 10,
+        infoid: 11,
         title: "Using Service Mesh for Resilience",
         alt: "Eric Brewer",
         nodetype: "Tetrate",
@@ -157,7 +189,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 11,
+        infoid: 12,
         title: "An Overview of Istio Mesh",
         alt: "Shriram and Louis",
         nodetype: "Istio",
@@ -172,7 +204,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 12,
+        infoid: 13,
         title: "Debugging Istio Networking",
         alt: "Liam White",
         nodetype: "Istio",
@@ -187,7 +219,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 13,
+        infoid: 14,
         title:
             "Connecting, Managing, Observing, and Securing Services",
         alt: "Zack Butcher",
@@ -204,7 +236,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 14,
+        infoid: 15,
         title: "GitOps for Istio",
         alt: "Varun Talwar",
         nodetype: "Istio",
@@ -219,7 +251,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 15,
+        infoid: 16,
         title:
             "Latency Analysis with Istio & OpenCensus",
         alt: "Latency Analysis",
@@ -236,7 +268,7 @@ export const diagramData = [
     },
     {
         infotype: "Talks and Videos",
-        infoid: 16,
+        infoid: 17,
         title: "Istio - The Packet's-Eye View",
         alt: "Istio Talk",
         nodetype: "Istio",
@@ -251,7 +283,7 @@ export const diagramData = [
     },
     {
         infotype: "Podcasts",
-        infoid: 17,
+        infoid: 18,
         title: "Podcast: How Autotrader used Service Mesh for mTLS and more (with Karl Stoney)",
         alt: "Autotrader",
         nodetype: "Istio",
@@ -266,7 +298,7 @@ export const diagramData = [
     },
     {
         infotype: "Podcasts",
-        infoid: 18,
+        infoid: 19,
         title: "Podcast: The Basics of Istio with Creators Louis Ryan and Varun Talwar",
         alt: "Varun and Louis",
         nodetype: "Istio",
