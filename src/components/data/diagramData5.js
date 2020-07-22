@@ -41,12 +41,12 @@ export const diagramData = [
         infoid: 2,
         title: "White Paper: Value of Istio & Envoy | Tetrate",
         alt: "White Paper: Value of Istio & Envoy | Tetrate",
-        nodetype: "Tetrate",
+        nodetype: "Istio",
         pic: istioenvoy,
         icon: read,
         time: 10,
         overview:
-            "The transition to service-based models driving industry advancement has inadvertently led to increased complexity in service management, networking, and security… problems only a service mesh can solve. Istio is currently the industry-leading open-source service mesh and relies on an Envoy proxy to support it. We will address the what, why, and how of an Istio—and Envoy-based service mesh.",
+            "In this whitepaper, we will address the what, why, and how of an Istio and Envoy based service mesh. The transition to service-based models driving industry advancement has inadvertently led to increased complexity in service management, networking, and security… problems only a service mesh can solve. Istio is currently the industry-leading open-source service mesh and relies on an Envoy proxy to support it. ",
         tags: "istio; envoy; intro",
         url:
             "https://www.tetrate.io/white-paper-value-of-istio-envoy/",
