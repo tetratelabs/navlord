@@ -660,7 +660,7 @@ body {
     box-shadow: 0 6px lightgray;
     font-weight: 100;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     border: 1px solid black;
     margin-bottom: 16px;
     margin-inline: 8px;
@@ -728,10 +728,15 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.info-extra p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
 .info-extra img {
     width: 18px;
     height: auto;
-    margin-inline-end: 8px;
+    margin-right: 8px;
     /* border: 1px solid black; */
 }
 

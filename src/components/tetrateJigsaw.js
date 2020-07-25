@@ -65,7 +65,7 @@ const Jigsaw = ({grid}) => {
     };
 
     const handleHover3 = () => {
-        setHover3(!hover3);
+        setHover3(!hover3); 
     };
 
     const handleReset = ()=> {
