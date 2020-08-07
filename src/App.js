@@ -7,8 +7,9 @@ import Social from "./assets/social-pic.png"
 function App() {
   return (
     <div className="App">
+
       <Helmet>
-      <meta charset="utf-8" />
+        <meta charset="utf-8" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
@@ -17,16 +18,22 @@ function App() {
         <title>Tetrate Library</title>
         <meta
             name="description"
-            content="Best place to find more about Istio, Envoy and Tetrate Service Bridge"
+            content="The resources section of Tetrate.io, to better help you in your pursuit of connecting services. Best place to find more about Istio, Envoy and Tetrate Service Bridge"
         />
+        <meta property="og:image:secure_url" content={Social}/>
+        <meta property="og:image:type" content="image/png"/>
+        <meta property="og:image:width" content="756"/>
+        <meta property="og:image:height" content="2222"/>
+        <meta property="og:locale" content="en_US"/>
+
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta itemprop="name" content="Tetrate Library" />
         <meta
             itemprop="description"
-            content="Best place to find more about Istio, Envoy and Tetrate Service Bridge"
+            content="The resources section of Tetrate.io, to better help you in your pursuit of connecting services. Best place to find more about Istio, Envoy and Tetrate Service Bridge"
         />
-        {/* <!-- <meta itemprop="image" content="www.tetrate.io/static/social.svg"> --> */}
+        <meta itemprop="image" content={Social}/>
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://resources.tetrate.io" />
@@ -34,7 +41,7 @@ function App() {
         <meta property="og:title" content="Tetrate Library" />
         <meta
             property="og:description"
-            content="Best place to find more about Istio, Envoy and Tetrate Service Bridge"
+            content="The resources section of Tetrate.io, to better help you in your pursuit of connecting services. Best place to find more about Istio, Envoy and Tetrate Service Bridge"
         />
         <meta
             property="og:image"
@@ -42,11 +49,14 @@ function App() {
         />
 
         {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:site" content="@Tetrateio"/>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tetrate Library" />
+        <meta name="twitter:image" content={Social}/>
+        <meta name="twitter:image" content="Tetrate Tetration Graph"/>
         <meta
             name="twitter:description"
-            content="Best place to find more about Istio, Envoy and Tetrate Service Bridge"
+            content="The resources section of Tetrate.io, to better help you in your pursuit of connecting services. Best place to find more about Istio, Envoy and Tetrate Service Bridge"
         />
         <meta
             property="og:image"
@@ -58,11 +68,14 @@ function App() {
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
         
         <title>Tetrate Library</title>
+
       </Helmet>
+
       <Header />
       <MainHeader />
+
     </div>
-  );
+  )
 }
 
 export default App;
