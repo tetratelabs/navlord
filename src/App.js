@@ -22,8 +22,8 @@ function App() {
         />
         <meta property="og:image:secure_url" content={Social}/>
         <meta property="og:image:type" content="image/png"/>
-        <meta property="og:image:width" content="756"/>
-        <meta property="og:image:height" content="2222"/>
+        <meta property="og:image:width" content="2222"/>
+        <meta property="og:image:height" content="756"/>
         <meta property="og:locale" content="en_US"/>
 
 
@@ -53,7 +53,7 @@ function App() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tetrate Library" />
         <meta name="twitter:image" content={Social}/>
-        <meta name="twitter:image" content="Tetrate Tetration Graph"/>
+        <meta name="twitter:image:alt" content="Tetrate Tetration Graph"/>
         <meta
             name="twitter:description"
             content="The resources section of Tetrate.io, to better help you in your pursuit of connecting services. Best place to find more about Istio, Envoy and Tetrate Service Bridge"
