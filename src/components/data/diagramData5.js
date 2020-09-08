@@ -21,10 +21,25 @@ import nav from "../../assets/nav.jpg";
 import istioenvoy from "../../assets/istioenvoy.jpg";
 import servicebridge from "../../assets/servicebridge.jpg";
 import freddie from "../../assets/freddie.jpg";
+import podcast1 from "../../assets/podcast1.jpg";
 
 
 
 export const diagramData = [
+    {
+        infotype: "Podcasts",
+        title:
+            "Podcast: How Istio is bringing Virtual Machines into the mesh",
+        alt: "VMs in Istio",
+        nodetype: "Istio",
+        pic: podcast1,
+        icon: Play,
+        time: 11,
+        overview:
+            "The release of Istio 1.7 was highly anticipated by the service mesh community and end-users because it addresses a problem that Tetrate was founded to solve: Bringing VMs into the mesh. Tia Louden sat down with Tetrate Engineer, Cynthia Coan - Envoy contributor, GetEnvoy maintainer and Istio 1.7 release manager - to discuss the recent work within Istio to make VMs first-class citizens in Istio service mesh.",
+        tags: "podcast;istio",
+        url: "https://www.tetrate.io/blog/istio-bringing-vms-into-the-mesh-with-cynthia-coan/",
+    },
     {
         infotype: "Whitepapers",
         title: "White Paper: Bridging Brownfield & Greenfield | Tetrate",
