@@ -29,6 +29,20 @@ export const diagramData = [
     {
         infotype: "Podcasts",
         title:
+            "Podcast: Envoy proxy extensibility with WebAssembly (Wasm) and the GetEnvoy Toolkit",
+        alt: "Envoy Proxy Extensibility",
+        nodetype: "Envoy",
+        pic: podcast1,
+        icon: Play,
+        time: 9,
+        overview:
+            "In this Make IT Mesh Video Podcast, Tetrate engineer Yaroslav Skopets describes new tooling that makes it easier for end users to build extensions to the edge and service proxy, Envoy.",
+        tags: "podcast;envoy",
+        url: "hhttps://www.tetrate.io/blog/how-to-get-started-with-envoy-extensions-wasm-and-getenvoy/",
+    },
+    {
+        infotype: "Podcasts",
+        title:
             "Podcast: How Istio is bringing Virtual Machines into the mesh",
         alt: "VMs in Istio",
         nodetype: "Istio",
