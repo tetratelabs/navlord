@@ -119,12 +119,12 @@ const Header = () => {
                                     : "learn-drop-hide"
                             }
                         >
-                            <a
+                            {/* <a
                                 href="http://tetrate.io/istio-up-and-running/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Istio: Up & Running</p>
-                            </a>
+                            </a> */}
                             <a
                                 href="http://resources.tetrate.io"
                                 rel="noopener noreferrer"
