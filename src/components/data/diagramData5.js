@@ -38,7 +38,7 @@ export const diagramData = [
         overview:
             "In this Make IT Mesh Video Podcast, Tetrate engineer Yaroslav Skopets describes new tooling that makes it easier for end users to build extensions to the edge and service proxy, Envoy.",
         tags: "podcast;envoy",
-        url: "hhttps://www.tetrate.io/blog/how-to-get-started-with-envoy-extensions-wasm-and-getenvoy/",
+        url: "https://www.tetrate.io/blog/how-to-get-started-with-envoy-extensions-wasm-and-getenvoy/",
     },
     {
         infotype: "Podcasts",
@@ -118,7 +118,7 @@ export const diagramData = [
         time: 3,
         overview: "Tetrate provides certified, tested builds of Envoy proxy",
         tags: "envoy; intro",
-        url: "http://tetrate.io/blog/announcing-getenvoy/",
+        url: "https://tetrate.io/blog/announcing-getenvoy/",
     },
     {
         infotype: "Talks and Videos",
@@ -319,7 +319,7 @@ export const diagramData = [
         overview:
             "Autotrader UK’s Karl Stoney explains what led them to Istio, how they got more than they bargained for, and considerations that engineers should make before getting started with Istio.",
         tags: "podcast;istio",
-        url: "http://tetrate.io/blog/karl-stoney-podcast/",
+        url: "https://tetrate.io/blog/karl-stoney-podcast/",
     },
     {
         infotype: "Podcasts",
@@ -333,6 +333,6 @@ export const diagramData = [
         overview:
             "The co-creators of Istio-- Louis Ryan of Google and Tetrate’s Varun Talwar-- discuss the key areas that Istio is designed to assist, dispel some common myths surrounding Istio, and offer their advice to those wishing to start out.",
         tags: "podcast;istio",
-        url: "http://tetrate.io/blog/louis-ryan-varun-talwar-podcast/",
+        url: "https://tetrate.io/blog/louis-ryan-varun-talwar-podcast/",
     },
 ];

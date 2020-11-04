@@ -39,7 +39,7 @@ const Header = () => {
             <div className="navContainer">
                 <div className="logo-holder">
                     <a
-                        href="http://tetrate.io/"
+                        href="https://tetrate.io/"
                         rel="noopener noreferrer"
                     >
                         <img src={logo} alt="Tetrate Logo" />
@@ -70,14 +70,14 @@ const Header = () => {
                             }
                         >
                             <a
-                                href="http://tetrate.io/tetrate-service-bridge/"
+                                href="https://tetrate.io/tetrate-service-bridge/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Tetrate Service Bridge</p>
                             </a>
 
                             <a
-                                href="http://tetrate.io/tetrate-istio-subscription/"
+                                href="https://tetrate.io/tetrate-istio-subscription/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Tetrate Istio Subscription</p>
@@ -86,7 +86,7 @@ const Header = () => {
                     </div>
 
                     <a
-                        href="http://tetrate.io/open-source/"
+                        href="https://www.tetrate.io/open-source-contributions/"
                         rel="noopener noreferrer"
                     >
                         <p
@@ -126,19 +126,19 @@ const Header = () => {
                                 <p>Istio: Up & Running</p>
                             </a> */}
                             <a
-                                href="http://resources.tetrate.io"
+                                href="https://resources.tetrate.io"
                                 rel="noopener noreferrer"
                             >
                                 <p>Tetrate Library</p>
                             </a>
                             <a
-                                href="http://tetrate.io/learn-events/"
+                                href="https://tetrate.io/learn-events/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Events</p>
                             </a>
                             <a
-                                href="http://tetrate.io/blog/"
+                                href="https://tetrate.io/blog/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Blog</p>
@@ -169,31 +169,31 @@ const Header = () => {
                             }
                         >
                             <a
-                                href="http://tetrate.io/about/"
+                                href="https://tetrate.io/about/"
                                 rel="noopener noreferrer"
                             >
                                 <p>About Us</p>
                             </a>
                             <a
-                                href="http://tetrate.io/team/"
+                                href="https://tetrate.io/team/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Team</p>
                             </a>
                             <a
-                                href="http://tetrate.io/careers/"
+                                href="https://tetrate.io/careers/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Careers</p>
                             </a>
                             <a
-                                href="http://tetrate.io/press/"
+                                href="https://tetrate.io/press/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Press</p>
                             </a>
                             <a
-                                href="http://tetrate.io/contact-us/"
+                                href="https://tetrate.io/contact-us/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Contact Us</p>
@@ -202,7 +202,7 @@ const Header = () => {
                     </div>
 
                     <a
-                        href="http://tetrate.io/contact-us/"
+                        href="https://tetrate.io/contact-us/"
                         rel="noopener noreferrer"
                     >
                         <button>GET DEMO</button>
