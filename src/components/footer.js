@@ -58,12 +58,12 @@ const Footer = () => {
                     >
                         <p className="footlink">Tetrate Service Bridge</p>
                     </a>
-                    <a
+                    {/* <a
                         href="https://tetrate.io/tetrate-istio-subscription/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Tetrate Istio Subscription</p>
-                    </a>
+                    </a> */}
 
                     <p className="footHigh">Community</p>
 

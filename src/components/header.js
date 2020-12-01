@@ -47,7 +47,7 @@ const Header = () => {
                 </div>
 
                 <div className="links-holder">
-                    <div
+                    {/* <div
                         className="hover-area"
                         onMouseEnter={handleHover1}
                         onMouseLeave={handleHover1}
@@ -83,7 +83,19 @@ const Header = () => {
                                 <p>Tetrate Istio Subscription</p>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
+
+                    <a
+                        href="https://tetrate.io/tetrate-service-bridge/"
+                        rel="noopener noreferrer"
+                    >
+                        <p
+                            className="links"
+    
+                        >
+                            TETRATE SERVICE BRIDGE
+                        </p>
+                    </a>
 
                     <a
                         href="https://www.tetrate.io/open-source-contributions/"
