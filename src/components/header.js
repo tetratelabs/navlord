@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/tetratelogo.svg";
 
 const Header = () => {
-    const [hover1, setHover1] = useState(false);
+    // const [hover1, setHover1] = useState(false);
     const [hover2, setHover2] = useState(false);
     const [hover3, setHover3] = useState(false);
 
@@ -22,9 +22,9 @@ const Header = () => {
         return () => window.removeEventListener("scroll", listenScrollEvent);
     }, []);
 
-    const handleHover1 = () => {
-        setHover1(!hover1);
-    };
+    // const handleHover1 = () => {
+    //     setHover1(!hover1);
+    // };
 
     const handleHover2 = () => {
         setHover2(!hover2);
