@@ -22,10 +22,24 @@ import istioenvoy from "../../assets/istioenvoy.jpg";
 import servicebridge from "../../assets/servicebridge.jpg";
 import freddie from "../../assets/freddie.jpg";
 import podcast1 from "../../assets/podcast1.jpg";
+import fico from "../../assets/fico.jpg";
 
 
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title:
+            "Case Study: How FICO Got Encryption and PCI Compliance",
+        alt: "FICO Istio",
+        nodetype: "Istio",
+        pic: fico,
+        icon: read,
+        time: 10,
+        overview:
+            "FICO started using Istio and rolled it out on their data management platform in 2019. They had the internal expertise to move to Kubernetes workloads, but they had noticed performance issues and sought out Tetrate’s expertise to address the complexities of operationalizing Istio for PCI compliance. ",
+        url: "https://www.tetrate.io/blog/case-study-fico-encryption-pci-compliance-with-istio-service-mesh/",
+    },
     {
         infotype: "Podcasts",
         title:
