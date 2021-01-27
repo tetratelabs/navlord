@@ -23,10 +23,24 @@ import servicebridge from "../../assets/servicebridge.jpg";
 import freddie from "../../assets/freddie.jpg";
 import podcast1 from "../../assets/podcast1.jpg";
 import fico from "../../assets/fico.jpg";
+import zerotrust from "../../assets/zero-trust.jpg";
 
 
 
 export const diagramData = [
+    {
+        infotype: "Whitepapers",
+        title:
+            "White Paper: Zero Trust Architecture",
+        alt: "ZTA Zero Trust",
+        nodetype: "Tetrate",
+        pic: zerotrust,
+        icon: read,
+        time: 30,
+        overview:
+            "Zero trust is more than just authentication and encryption on the wire. In this white paper, Zack Butcher—Tetrate founding engineer and co-author of NIST SP 800-204a, “Building Secure Microservices-based Applications Using Service-Mesh Architecture”— offers an overview of what zero trust security is and why a service mesh is the best way to implement it.",
+        url: "https://www.tetrate.io/white-paper-zero-trust-architecture/",
+    },
     {
         infotype: "Papers and Guides",
         title:
@@ -75,7 +89,7 @@ export const diagramData = [
         nodetype: "Tetrate",
         pic: servicebridge,
         icon: read,
-        time: 10,
+        time: 25,
         overview:
             "Tetrate Service Bridge, powered by Istio and Envoy, is a self-service, multi-tenant platform to weave and manage the service mesh across VMs and Kubernetes clusters, on-prem and cloud. Developers, security engineers, and operations engineers across multiple teams can safely and securely manage their services without impacting others. A rich set of ecosystem integrations will simplify adoption in enterprise environments.",
         tags: "service bridge; intro",
