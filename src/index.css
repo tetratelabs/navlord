@@ -600,6 +600,7 @@ body {
     box-sizing: border-box;
 
     overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 .infotype-con::-webkit-scrollbar {
