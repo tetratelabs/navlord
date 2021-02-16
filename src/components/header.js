@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/tetratelogo.svg";
 
 const Header = () => {
-    // const [hover1, setHover1] = useState(false);
+    const [hover1, setHover1] = useState(false);
     const [hover2, setHover2] = useState(false);
     const [hover3, setHover3] = useState(false);
 
@@ -22,9 +22,9 @@ const Header = () => {
         return () => window.removeEventListener("scroll", listenScrollEvent);
     }, []);
 
-    // const handleHover1 = () => {
-    //     setHover1(!hover1);
-    // };
+    const handleHover1 = () => {
+        setHover1(!hover1);
+    };
 
     const handleHover2 = () => {
         setHover2(!hover2);
@@ -47,7 +47,7 @@ const Header = () => {
                 </div>
 
                 <div className="links-holder">
-                    {/* <div
+                    <div
                         className="hover-area"
                         onMouseEnter={handleHover1}
                         onMouseLeave={handleHover1}
@@ -77,15 +77,15 @@ const Header = () => {
                             </a>
 
                             <a
-                                href="https://tetrate.io/tetrate-istio-subscription/"
+                                href="https://www.tetrate.io/getistio/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Tetrate Istio Subscription</p>
+                                <p>GetIstio</p>
                             </a>
                         </div>
-                    </div> */}
+                    </div>
 
-                    <a
+                    {/* <a
                         href="https://tetrate.io/tetrate-service-bridge/"
                         rel="noopener noreferrer"
                     >
@@ -95,7 +95,7 @@ const Header = () => {
                         >
                             TETRATE SERVICE BRIDGE
                         </p>
-                    </a>
+                    </a> */}
 
                     <a
                         href="https://www.tetrate.io/open-source-contributions/"
