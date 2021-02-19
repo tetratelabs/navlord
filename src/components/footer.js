@@ -76,12 +76,12 @@ const Footer = () => {
                 </div>
                 <div className="footer-blocks">
                     <p className="footHigh">Learn</p>
-                    {/* <a
-                        href="http://tetrate.io/istio-up-and-running/"
+                    <a
+                        href="https://academy.tetrate.io/courses/istio-fundamentals"
                         rel="noopener noreferrer"
                     >
-                        <p className="footlink">Istio: Up & Running</p>
-                    </a> */}
+                        <p className="footlink">Tetrate Academy</p>
+                    </a>
                     <a
                         href="https://resources.tetrate.io"
                         rel="noopener noreferrer"
