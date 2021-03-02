@@ -109,12 +109,12 @@ const Footer = () => {
                     >
                         <p className="footlink">About Us</p>
                     </a>
-                    <a
+                    {/* <a
                         href="https://tetrate.io/team/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Team</p>
-                    </a>
+                    </a> */}
                     <a
                         href="https://tetrate.io/careers/"
                         rel="noopener noreferrer"

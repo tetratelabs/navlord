@@ -186,12 +186,12 @@ const Header = () => {
                             >
                                 <p>About Us</p>
                             </a>
-                            <a
+                            {/* <a
                                 href="https://tetrate.io/team/"
                                 rel="noopener noreferrer"
                             >
                                 <p>Team</p>
-                            </a>
+                            </a> */}
                             <a
                                 href="https://tetrate.io/careers/"
                                 rel="noopener noreferrer"
