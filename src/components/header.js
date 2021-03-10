@@ -38,10 +38,7 @@ const Header = () => {
         <div className={header}>
             <div className="navContainer">
                 <div className="logo-holder">
-                    <a
-                        href="https://tetrate.io/"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="https://tetrate.io/" rel="noopener noreferrer">
                         <img src={logo} alt="Tetrate Logo" />
                     </a>
                 </div>
@@ -77,10 +74,17 @@ const Header = () => {
                             </a>
 
                             <a
-                                href="https://www.tetrate.io/getistio/"
+                                href="https://www.tetrate.io/tetrate-istio-subscription/"
                                 rel="noopener noreferrer"
                             >
-                                <p>GetIstio</p>
+                                <p>Tetrate Istio Subscription</p>
+                            </a>
+
+                            <a
+                                href="https://www.tetrate.io/tetrate-cloud/"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Tetrate Cloud</p>
                             </a>
                         </div>
                     </div>
@@ -97,7 +101,7 @@ const Header = () => {
                         </p>
                     </a> */}
 
-                    <a
+                    {/* <a
                         href="https://www.tetrate.io/open-source-contributions/"
                         rel="noopener noreferrer"
                     >
@@ -107,7 +111,7 @@ const Header = () => {
                         >
                             OPEN SOURCE
                         </p>
-                    </a>
+                    </a> */}
 
                     <div
                         className="hover-area"
@@ -122,7 +126,7 @@ const Header = () => {
                                     : { "border-bottom": "#00000000 0 solid" }
                             }
                         >
-                            LEARN ⌄
+                            RESOURCES ⌄
                         </p>
                         <div
                             className={
@@ -142,6 +146,12 @@ const Header = () => {
                                 rel="noopener noreferrer"
                             >
                                 <p>Tetrate Library</p>
+                            </a>
+                            <a
+                                href="https://www.tetrate.io/apache-skywalking-ebook-tetrate/"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Free eBook: SkyWalking</p>
                             </a>
                             <a
                                 href="https://tetrate.io/learn-events/"
@@ -199,6 +209,12 @@ const Header = () => {
                                 <p>Careers</p>
                             </a>
                             <a
+                                href="https://www.tetrate.io/open-source-contributions/"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Open Source</p>
+                            </a>
+                            <a
                                 href="https://tetrate.io/press/"
                                 rel="noopener noreferrer"
                             >
@@ -223,11 +239,8 @@ const Header = () => {
             </div>
 
             <a href="#menu">
-            <button className="menu-mobile">
-                Menu
-            </button>
+                <button className="menu-mobile">Menu</button>
             </a>
-            
         </div>
     );
 };

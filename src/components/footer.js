@@ -11,10 +11,7 @@ const Footer = () => {
             <div className="footContainer">
                 <div className="footer-blocks">
                     <div>
-                        <a
-                            href="https://tetrate.io/"
-                            rel="noopener noreferrer"
-                        >
+                        <a href="https://tetrate.io/" rel="noopener noreferrer">
                             <img src={logo} alt="Tetrate Logo" />
                         </a>
                     </div>
@@ -59,23 +56,29 @@ const Footer = () => {
                         <p className="footlink">Tetrate Service Bridge</p>
                     </a>
                     <a
-                        href="https://www.tetrate.io/getistio/"
+                        href="https://www.tetrate.io/tetrate-istio-subscription/"
                         rel="noopener noreferrer"
                     >
-                        <p className="footlink">GetIstio</p>
+                        <p className="footlink">Tetrate Istio Subscription</p>
+                    </a>
+                    <a
+                        href="https://www.tetrate.io/tetrate-cloud/"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="footlink">Tetrate Cloud</p>
                     </a>
 
-                    <p className="footHigh">Community</p>
+                    {/* <p className="footHigh">Community</p>
 
                     <a
                         href="https://www.tetrate.io/open-source-contributions/"
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Open Source</p>
-                    </a>
+                    </a> */}
                 </div>
                 <div className="footer-blocks">
-                    <p className="footHigh">Learn</p>
+                    <p className="footHigh">Resources</p>
                     <a
                         href="https://academy.tetrate.io/courses/istio-fundamentals"
                         rel="noopener noreferrer"
@@ -87,6 +90,12 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">Tetrate Library</p>
+                    </a>
+                    <a
+                        href="https://www.tetrate.io/apache-skywalking-ebook-tetrate/"
+                        rel="noopener noreferrer"
+                    >
+                        <p classname="footlink">Free eBook: SkyWalking</p>
                     </a>
                     <a
                         href="https://tetrate.io/learn-events/"
@@ -122,6 +131,12 @@ const Footer = () => {
                         <p className="footlink">Careers</p>
                     </a>
                     <a
+                        href="https://www.tetrate.io/open-source-contributions/"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="footlink">Open Source</p>
+                    </a>
+                    <a
                         href="https://tetrate.io/press/"
                         rel="noopener noreferrer"
                     >
@@ -139,14 +154,18 @@ const Footer = () => {
             <div className="policies">
                 <p>Copyright @Tetrate 2020. All rights reserved.</p>
                 <div className="policy-links">
-                    <a href="https://tetrate.io/terms-and-conditions/"
-                        rel="noopener noreferrer">
+                    <a
+                        href="https://tetrate.io/terms-and-conditions/"
+                        rel="noopener noreferrer"
+                    >
                         <p>Terms and Conditions</p>
                     </a>
-                    <p>  and  </p>
+                    <p> and </p>
 
-                    <a href="https://tetrate.io/privacy/"
-                        rel="noopener noreferrer">
+                    <a
+                        href="https://tetrate.io/privacy/"
+                        rel="noopener noreferrer"
+                    >
                         <p>Privacy</p>
                     </a>
                 </div>
