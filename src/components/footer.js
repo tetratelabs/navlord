@@ -97,12 +97,7 @@ const Footer = () => {
                     >
                         <p classname="footlink">Free eBook: SkyWalking</p>
                     </a>
-                    <a
-                        href="https://tetrate.io/learn-events/"
-                        rel="noopener noreferrer"
-                    >
-                        <p className="footlink">Events</p>
-                    </a>
+                    
                     <a
                         href="https://tetrate.io/blog/"
                         rel="noopener noreferrer"
@@ -117,6 +112,12 @@ const Footer = () => {
                         rel="noopener noreferrer"
                     >
                         <p className="footlink">About Us</p>
+                    </a>
+                    <a
+                        href="https://tetrate.io/learn-events/"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="footlink">Events</p>
                     </a>
                     {/* <a
                         href="https://tetrate.io/team/"
