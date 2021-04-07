@@ -1,10 +1,37 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/tetratelogo.svg";
+import logo from "../assets/tetrate-logo-black-transparent.png";
+import tsb from "../assets/tetrate-service-bridge.svg";
+import ta from "../assets/tetrate-academy.svg";
+import events from "../assets/events.svg";
+import tcloud from "../assets/tetrate-cloud.svg";
+import tis from "../assets/tetrate-istio-subscription.svg";
+import tlib from "../assets/tetrate-library.svg";
+import press from "../assets/press-news.svg";
+import os from "../assets/open-source.svg";
+import ebook from "../assets/e-book.svg";
+import contact from "../assets/contact.svg";
+import careers from "../assets/careers.svg";
+import about from "../assets/about-us.svg";
 
 const Header = () => {
     const [hover1, setHover1] = useState(false);
     const [hover2, setHover2] = useState(false);
     const [hover3, setHover3] = useState(false);
+    const [hover4, setHover4] = useState(false);
+    const [hover5, setHover5] = useState(false);
+    const [hover6, setHover6] = useState(false);
+    const [hover7, setHover7] = useState(false);
+    const [hover8, setHover8] = useState(false);
+    const [hover9, setHover9] = useState(false);
+    const [hover10, setHover10] = useState(false);
+    const [hover12, setHover12] = useState(false);
+    const [hover13, setHover13] = useState(false);
+    const [hover14, setHover14] = useState(false);
+    const [hover15, setHover15] = useState(false);
+    const [hover16, setHover16] = useState(false);
+    const [hover11, setHover11] = useState(false);
+
+
 
     const [header, setHeader] = useState("header");
 
@@ -34,6 +61,54 @@ const Header = () => {
         setHover3(!hover3);
     };
 
+    const handleHover4 = () => {
+        setHover4(!hover4);
+    };
+
+    const handleHover5 = () => {
+        setHover5(!hover5);
+    };
+
+    const handleHover6 = () => {
+        setHover6(!hover6);
+    };
+
+    const handleHover7 = () => {
+        setHover7(!hover7);
+    };
+
+    const handleHover8 = () => {
+        setHover8(!hover8);
+    };
+
+    const handleHover9 = () => {
+        setHover9(!hover9);
+    };
+
+    const handleHover10 = () => {
+        setHover10(!hover10);
+    };
+
+    const handleHover11 = () => {
+        setHover11(!hover11);
+    };
+    const handleHover12 = () => {
+        setHover12(!hover12);
+    };
+    const handleHover13 = () => {
+        setHover13(!hover13);
+    };
+    const handleHover14 = () => {
+        setHover14(!hover14);
+    };
+    const handleHover15 = () => {
+        setHover15(!hover15);
+    };
+    const handleHover16 = () => {
+        setHover16(!hover16);
+    };
+
+
     return (
         <div className={header}>
             <div className="navContainer">
@@ -53,11 +128,11 @@ const Header = () => {
                             className="links"
                             style={
                                 hover1
-                                    ? { "border-bottom": "#f05623 2px solid" }
-                                    : { "border-bottom": "#00000000 0 solid" }
+                                    ? { color: "#f05623" }
+                                    : { color: "#000000" }
                             }
                         >
-                            PRODUCTS ⌄
+                            PRODUCTS ▼
                         </p>
                         <div
                             className={
@@ -70,22 +145,116 @@ const Header = () => {
                                 href="https://tetrate.io/tetrate-service-bridge/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Tetrate Service Bridge</p>
-                            </a>
-
-                            <a
-                                href="https://www.tetrate.io/tetrate-istio-subscription/"
-                                rel="noopener noreferrer"
-                            >
-                                <p>Tetrate Istio Subscription</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover5}
+                                    onMouseLeave={handleHover5}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={tsb}
+                                            alt="Tetrate Service Bridge"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover5
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Tetrate Service Bridge
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover5
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Application connectivity platform
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
 
                             <a
                                 href="https://www.tetrate.io/tetrate-cloud/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Tetrate Cloud</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover6}
+                                    onMouseLeave={handleHover6}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={tcloud}
+                                            alt="Tetrate Cloud"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover6
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Tetrate Cloud
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover6
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Fully managed Tetrate Service Bridge
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
+
+                            <a
+                                href="https://www.tetrate.io/tetrate-istio-subscription/"
+                                rel="noopener noreferrer"
+                            >
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover7}
+                                    onMouseLeave={handleHover7}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={tis}
+                                            alt="Tetrate Istio Subscription"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover7
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Tetrate Istio Subscription
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover7
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Enterprise-grade Istio
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
 
@@ -101,17 +270,23 @@ const Header = () => {
                         </p>
                     </a> */}
 
-                    {/* <a
-                        href="https://www.tetrate.io/open-source-contributions/"
+                    <a
+                        href="https://www.tetrate.io/blog/"
                         rel="noopener noreferrer"
+                        onMouseEnter={handleHover4}
+                        onMouseLeave={handleHover4}
                     >
                         <p
                             className="links"
-    
+                            style={
+                                hover4
+                                    ? { color: "#f05623" }
+                                    : { color: "#000000" }
+                            }
                         >
-                            OPEN SOURCE
+                            BLOG
                         </p>
-                    </a> */}
+                    </a>
 
                     <div
                         className="hover-area"
@@ -122,11 +297,11 @@ const Header = () => {
                             className="links"
                             style={
                                 hover2
-                                    ? { "border-bottom": "#f05623 2px solid" }
-                                    : { "border-bottom": "#00000000 0 solid" }
+                                    ? { color: "#f05623" }
+                                    : { color: "#000000" }
                             }
                         >
-                            RESOURCES ⌄
+                            RESOURCES ▼
                         </p>
                         <div
                             className={
@@ -139,25 +314,112 @@ const Header = () => {
                                 href="https://academy.tetrate.io/courses/istio-fundamentals"
                                 rel="noopener noreferrer"
                             >
-                                <p>Tetrate Academy</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover8}
+                                    onMouseLeave={handleHover8}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={ta}
+                                            alt="Tetrate Academy"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover8
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Tetrate Academy
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover8
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Learn Istio fundamentals
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                             <a
                                 href="https://resources.tetrate.io"
                                 rel="noopener noreferrer"
                             >
-                                <p>Tetrate Library</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover9}
+                                    onMouseLeave={handleHover9}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={tlib}
+                                            alt="Tetrate Library"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover9
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Tetrate Library
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover9
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Whitepapers, podcasts, guides and more
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                             <a
                                 href="https://www.tetrate.io/apache-skywalking-ebook-tetrate/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Free eBook: SkyWalking</p>
-                            </a>
-                            <a
-                                href="https://tetrate.io/blog/"
-                                rel="noopener noreferrer"
-                            >
-                                <p>Blog</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover10}
+                                    onMouseLeave={handleHover10}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={ebook}
+                                            alt="Free eBook: SkyWaking"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover10
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Free eBook: SkyWalking
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover10
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Your guide to observability at scale
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -171,11 +433,11 @@ const Header = () => {
                             className="links"
                             style={
                                 hover3
-                                    ? { "border-bottom": "#f05623 2px solid" }
-                                    : { "border-bottom": "#00000000 0 solid" }
+                                    ? { color: "#f05623" }
+                                    : { color: "#000000" }
                             }
                         >
-                            COMPANY ⌄
+                            COMPANY ▼
                         </p>
                         <div
                             className={
@@ -188,44 +450,224 @@ const Header = () => {
                                 href="https://tetrate.io/about/"
                                 rel="noopener noreferrer"
                             >
-                                <p>About Us</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover11}
+                                    onMouseLeave={handleHover11}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={about}
+                                            alt="About Us Icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover11
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            About Us
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover11
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            The Tetrate chronicles
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
 
                             <a
                                 href="https://tetrate.io/learn-events/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Events</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover12}
+                                    onMouseLeave={handleHover12}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={events}
+                                            alt="Events icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover12
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Events
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover12
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Webinars, conferences, and meetups
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
-                            {/* <a
-                                href="https://tetrate.io/team/"
-                                rel="noopener noreferrer"
-                            >
-                                <p>Team</p>
-                            </a> */}
                             <a
                                 href="https://tetrate.io/careers/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Careers</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover13}
+                                    onMouseLeave={handleHover13}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={careers}
+                                            alt="Careers icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover13
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Careers
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover13
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            We are hiring!
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                             <a
                                 href="https://www.tetrate.io/open-source-contributions/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Open Source</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover14}
+                                    onMouseLeave={handleHover14}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={os}
+                                            alt="Open Source icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover14
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Open Source
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover14
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Our contributions and projects
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                             <a
                                 href="https://tetrate.io/press/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Press</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover15}
+                                    onMouseLeave={handleHover15}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={press}
+                                            alt="press icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover15
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Press
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover15
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Media coverage and announcements
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                             <a
                                 href="https://tetrate.io/contact-us/"
                                 rel="noopener noreferrer"
                             >
-                                <p>Contact Us</p>
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover16}
+                                    onMouseLeave={handleHover16}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={contact}
+                                            alt="contact us icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover16
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Contact Us
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover16
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Get in touch and let's talk
+                                        </p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
