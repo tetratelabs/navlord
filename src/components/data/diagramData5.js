@@ -25,10 +25,25 @@ import podcast1 from "../../assets/podcast1.jpg";
 import fico from "../../assets/fico.jpg";
 import zerotrust from "../../assets/zero-trust.jpg";
 import tsbintro from "../../assets/tsb-intro.jpg";
+import pci from "../../assets/pci.jpg";
+
 
 
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "Meeting PCI Compliance Standards",
+        alt: "PCI DSS Guidelines for Tetrate Service Bridge",
+        nodetype: "Tetrate",
+        pic: pci,
+        icon: read,
+        time: 6,
+        overview:
+            "The Payment Card Industry Data Security Standard (PCI DSS) requires organizations interfacing with credit card data to adopt a robust set of security controls. This document provides guidance for configuring Tetrate Service Bridge to meet those standards.",
+        tags: "event;talk-videos;service-mesh;istio",
+        url: "https://www.tetrate.io/pci-compliance-dss",
+    },
     {
         infotype: "Talks and Videos",
         title: "Intro to Tetrate Service Bridge",
