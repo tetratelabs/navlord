@@ -26,11 +26,25 @@ import fico from "../../assets/fico.jpg";
 import zerotrust from "../../assets/zero-trust.jpg";
 import tsbintro from "../../assets/tsb-intro.jpg";
 import pci from "../../assets/pci.jpg";
+import mirantiswebinar from "../../assets/mirantis-webinar.jpg";
 
 
 
 
 export const diagramData = [
+    {
+        infotype: "Talks and Videos",
+        title: "Istio in the Enterprise: Security and Scale Out Challenges for Micoservices in Kubernetes",
+        alt: "Istio in the Enterprise: Security and Scale Out Challenges for Micoservices in Kubernetes",
+        nodetype: "Istio",
+        pic: mirantiswebinar,
+        icon: Play,
+        time: 45,
+        overview:
+            "Join Scott Cranton, Technical Field Leader at Tetrate, and Uday Shetty Director, Partner Integration at Mirantis for this informative webinar on how to successfully deploy, manage, and scale microservices in enterprise environments. Outlined in the webinar are unique challenges presented to most teams, and how Istio helps address these challenges, all from a customer perspective. ",
+        tags: "event;talk-videos;service-mesh;istio",
+        url: "https://youtu.be/90zu-Gd7QiE",
+    },
     {
         infotype: "Papers and Guides",
         title: "Meeting PCI Compliance Standards",
