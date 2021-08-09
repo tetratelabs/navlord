@@ -34,8 +34,8 @@ import mirantiswebinar from "../../assets/mirantis-webinar.jpg";
 export const diagramData = [
     {
         infotype: "Talks and Videos",
-        title: "Istio in the Enterprise: Security and Scale Out Challenges for Micoservices in Kubernetes",
-        alt: "Istio in the Enterprise: Security and Scale Out Challenges for Micoservices in Kubernetes",
+        title: "Istio in the Enterprise: Security and Scale Out Challenges for Microservices in Kubernetes",
+        alt: "Istio in the Enterprise: Security and Scale Out Challenges for Microservices in Kubernetes",
         nodetype: "Istio",
         pic: mirantiswebinar,
         icon: Play,
