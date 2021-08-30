@@ -27,11 +27,24 @@ import zerotrust from "../../assets/zero-trust.jpg";
 import tsbintro from "../../assets/tsb-intro.jpg";
 import pci from "../../assets/pci.jpg";
 import mirantiswebinar from "../../assets/mirantis-webinar.jpg";
-
+import varun2 from "../../assets/varun2.jpg";
 
 
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "5 Things You Need To Know To Optimize Your Company’s Approach to Data Privacy and Cybersecurity",
+        alt: "5 Things You Need To Know To Optimize Your Company’s Approach to Data Privacy and Cybersecurity",
+        nodetype: "Tetrate",
+        pic: varun2,
+        icon: read,
+        time: 11,
+        overview:
+            "Read Varun Talwar, CEO and co-founder of Tetrate take on '5 Things You Need To Know To Optimize Your Company’s Approach to Data Privacy and Cybersecurity' by Authority Magazine",
+        tags: "event;talk-videos;service-mesh;istio",
+        url: "https://medium.com/authority-magazine/varun-talwar-of-tetrate-5-things-you-need-to-know-to-optimize-your-companys-approach-to-data-db51f8a2b9da",
+    },
     {
         infotype: "Talks and Videos",
         title: "Istio in the Enterprise: Security and Scale Out Challenges for Microservices in Kubernetes",
