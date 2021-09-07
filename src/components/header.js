@@ -13,6 +13,7 @@ import contact from "../assets/contact.svg";
 import careers from "../assets/careers.svg";
 import about from "../assets/about-us.svg";
 import zta from "../assets/zta-icon.svg";
+import partners from "../assets/partnership-icon.svg";
 
 const Header = () => {
     const [hover1, setHover1] = useState(false);
@@ -32,6 +33,7 @@ const Header = () => {
     const [hover16, setHover16] = useState(false);
     const [hover11, setHover11] = useState(false);
     const [hover17, setHover17] = useState(false);
+    const [hover18, setHover18] = useState(false);
 
 
 
@@ -112,6 +114,9 @@ const Header = () => {
     };
     const handleHover17 = () => {
         setHover17(!hover17);
+    };
+    const handleHover18 = () => {
+        setHover18(!hover18);
     };
 
 
@@ -562,6 +567,49 @@ const Header = () => {
                                             }
                                         >
                                             The Tetrate chronicles
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.tetrate.io/partners/"
+                                rel="noopener noreferrer"
+                            >
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover18}
+                                    onMouseLeave={handleHover18}
+                                    style={
+                                        hover18
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={partners}
+                                            alt="Partners Icon"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover18
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Partners
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover18
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            Tetrate partner network
                                         </p>
                                     </div>
                                 </div>
