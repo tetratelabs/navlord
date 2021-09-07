@@ -12,6 +12,7 @@ import ebook from "../assets/e-book.svg";
 import contact from "../assets/contact.svg";
 import careers from "../assets/careers.svg";
 import about from "../assets/about-us.svg";
+import zta from "../assets/zta-icon.svg";
 
 const Header = () => {
     const [hover1, setHover1] = useState(false);
@@ -30,6 +31,8 @@ const Header = () => {
     const [hover15, setHover15] = useState(false);
     const [hover16, setHover16] = useState(false);
     const [hover11, setHover11] = useState(false);
+    const [hover17, setHover17] = useState(false);
+
 
 
 
@@ -106,6 +109,9 @@ const Header = () => {
     };
     const handleHover16 = () => {
         setHover16(!hover16);
+    };
+    const handleHover17 = () => {
+        setHover17(!hover17);
     };
 
 
@@ -342,7 +348,44 @@ const Header = () => {
                                                     : { color: "rgb(90, 90, 90)" }
                                             }
                                         >
-                                            Learn Istio fundamentals
+                                            Learn Istio Fundamentals | Certified Administrator
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a
+                                href="https://www.tetrate.io/zero-trust/"
+                                rel="noopener noreferrer"
+                            >
+                                <div
+                                    className="dropdown-box"
+                                    onMouseEnter={handleHover17}
+                                    onMouseLeave={handleHover17}
+                                >
+                                    <div className="dropdown-icon">
+                                        <img
+                                            src={zta}
+                                            alt="Zero Trust Architecture"
+                                        />
+                                    </div>
+                                    <div className="dropdown-details">
+                                        <h4
+                                            style={
+                                                hover17
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)"}
+                                            }
+                                        >
+                                            Zero Trust Architecture
+                                        </h4>
+                                        <p
+                                            style={
+                                                hover17
+                                                    ? { color: "#f05623" }
+                                                    : { color: "rgb(90, 90, 90)" }
+                                            }
+                                        >
+                                            End-to-end application security
                                         </p>
                                     </div>
                                 </div>

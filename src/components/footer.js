@@ -92,6 +92,12 @@ const Footer = () => {
                         <p className="footlink">Tetrate Library</p>
                     </a>
                     <a
+                        href="https://www.tetrate.io/zero-trust/"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="footlink">Zero Trust Architecture</p>
+                    </a>
+                    <a
                         href="https://www.tetrate.io/apache-skywalking-ebook-tetrate/"
                         rel="noopener noreferrer"
                     >
