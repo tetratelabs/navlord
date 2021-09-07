@@ -155,6 +155,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover5}
                                     onMouseLeave={handleHover5}
+                                    style={
+                                        hover5
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -193,6 +198,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover6}
                                     onMouseLeave={handleHover6}
+                                    style={
+                                        hover6
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -231,6 +241,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover7}
                                     onMouseLeave={handleHover7}
+                                    style={
+                                        hover7
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -324,6 +339,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover8}
                                     onMouseLeave={handleHover8}
+                                    style={
+                                        hover8
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -361,6 +381,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover17}
                                     onMouseLeave={handleHover17}
+                                    style={
+                                        hover17
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -398,6 +423,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover9}
                                     onMouseLeave={handleHover9}
+                                    style={
+                                        hover9
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -435,6 +465,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover10}
                                     onMouseLeave={handleHover10}
+                                    style={
+                                        hover10
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -497,6 +532,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover11}
                                     onMouseLeave={handleHover11}
+                                    style={
+                                        hover11
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -535,6 +575,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover12}
                                     onMouseLeave={handleHover12}
+                                    style={
+                                        hover12
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -572,6 +617,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover13}
                                     onMouseLeave={handleHover13}
+                                    style={
+                                        hover13
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -609,6 +659,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover14}
                                     onMouseLeave={handleHover14}
+                                    style={
+                                        hover14
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -646,6 +701,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover15}
                                     onMouseLeave={handleHover15}
+                                    style={
+                                        hover15
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
@@ -683,6 +743,11 @@ const Header = () => {
                                     className="dropdown-box"
                                     onMouseEnter={handleHover16}
                                     onMouseLeave={handleHover16}
+                                    style={
+                                        hover16
+                                            ? { backgroundColor: "#f3f3f3" }
+                                            : { backgroundColor: "#fff"}
+                                    }
                                 >
                                     <div className="dropdown-icon">
                                         <img
