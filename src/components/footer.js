@@ -120,6 +120,12 @@ const Footer = () => {
                         <p className="footlink">About Us</p>
                     </a>
                     <a
+                        href="https://www.tetrate.io/partners/"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="footlink">Partners</p>
+                    </a>
+                    <a
                         href="https://tetrate.io/learn-events/"
                         rel="noopener noreferrer"
                     >
@@ -159,7 +165,7 @@ const Footer = () => {
             </div>
 
             <div className="policies">
-                <p>Copyright @Tetrate 2020. All rights reserved.</p>
+                <p>Copyright @Tetrate 2021. All rights reserved.</p>
                 <div className="policy-links">
                     <a
                         href="https://tetrate.io/terms-and-conditions/"
