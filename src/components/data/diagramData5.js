@@ -96,7 +96,7 @@ export const diagramData = [
         overview:
             "Created by Istio founders, Tetrate Service Bridge is the only edge-to-workload application connectivity platform that provides enterprises with a consistent, unified way to connect and secure services across an entire mesh-managed environment.",
         tags: "event;talk-videos;service-mesh;istio",
-        url: "https://us02web.zoom.us/webinar/register/4816177885260/WN_JukXWVU-TP-68A6y-NAs6Q",
+        url: "https://tinyurl.com/3whdxsth",
     },
     {
         infotype: "Whitepapers",
