@@ -29,10 +29,36 @@ import pci from "../../assets/pci.jpg";
 import mirantiswebinar from "../../assets/mirantis-webinar.jpg";
 import varun2 from "../../assets/varun2.jpg";
 import cool from "../../assets/cool.jpg";
-
-
+import smbook from "../../assets/smbook.jpg";
+import hipaa from "../../assets/hipaa.jpg";
 
 export const diagramData = [
+    {
+        infotype: "Whitepapers",
+        title: "Tetrate Istio with TSB : Towards HIPAA Compliance",
+        alt: "Tetrate Istio with TSB : Towards HIPAA Compliance",
+        nodetype: "Tetrate",
+        pic: hipaa,
+        icon: read,
+        time: 12,
+        overview:
+            "This white paper provides a brief overview of healthcare industry regulations for protecting patient data and describes how a service mesh solution can help health systems comply with those regulations.",
+        tags: "gartner;article;service-mesh;istio",
+        url: "https://www.tetrate.io/tetrate-istio-with-tsb-towards-hipaa-compliance/",
+    },
+    {
+        infotype: "Papers and Guides",
+        title: "Service Mesh Handbook",
+        alt: "Service Mesh Handbook",
+        nodetype: "Tetrate",
+        pic: smbook,
+        icon: read,
+        time: 16,
+        overview:
+            "Gartner’s cool vendor recognition is an important milestone and a validation for Tetrate Service Bridge. It’s a milestone but not the destination. Thanks to Gartner for the recognition, our customers and partners. Find the report here to learn what Gartner has to say about Tetrate and our product.",
+        tags: "gartner;article;service-mesh;istio",
+        url: "https://www.tetrate.io/cool",
+    },
     {
         infotype: "Papers and Guides",
         title: "Tetrate named 2021 Cool Vendor by Gartner",
