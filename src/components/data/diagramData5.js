@@ -57,7 +57,7 @@ export const diagramData = [
         overview:
             "Gartner’s cool vendor recognition is an important milestone and a validation for Tetrate Service Bridge. It’s a milestone but not the destination. Thanks to Gartner for the recognition, our customers and partners. Find the report here to learn what Gartner has to say about Tetrate and our product.",
         tags: "gartner;article;service-mesh;istio",
-        url: "https://www.tetrate.io/cool",
+        url: "https://www.tetrate.io/service-mesh-handbook/",
     },
     {
         infotype: "Papers and Guides",
