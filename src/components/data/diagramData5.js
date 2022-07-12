@@ -31,8 +31,22 @@ import varun2 from "../../assets/varun2.jpg";
 import cool from "../../assets/cool.jpg";
 import smbook from "../../assets/smbook.jpg";
 import hipaa from "../../assets/hipaa.jpg";
+import idc from "../../assets/idc.jpg";
 
 export const diagramData = [
+    {
+        infotype: "Whitepapers",
+        title: "Meeting the Need for Modern Application Networking",
+        alt: "Meeting the Need for Modern Application Networking",
+        nodetype: "Tetrate",
+        pic: idc,
+        icon: read,
+        time: 40,
+        overview:
+            "Learn the benefits of using a comprehensive and full-featured platform for application layer networking.",
+        tags: "gartner;article;service-mesh;istio",
+        url: "https://www.tetrate.io/meet-the-need-idc/",
+    },
     {
         infotype: "Whitepapers",
         title: "Tetrate Istio with TSB : Towards HIPAA Compliance",
