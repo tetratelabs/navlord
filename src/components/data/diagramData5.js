@@ -32,8 +32,22 @@ import cool from "../../assets/cool.jpg";
 import smbook from "../../assets/smbook.jpg";
 import hipaa from "../../assets/hipaa.jpg";
 import idc from "../../assets/idc.jpg";
+import nist from "../../assets/nist800-204.jpg";
 
 export const diagramData = [
+    {
+        infotype: "Whitepapers",
+        title: "Tetrate’s Guide to Federal Security Requirements for Microservices",
+        alt: "Tetrate’s Guide to Federal Security Requirements for Microservices",
+        nodetype: "Tetrate",
+        pic: nist,
+        icon: read,
+        time: 24,
+        overview:
+            "Get Tetrate’s comprehensive overview of NIST security standards for microservices applications.",
+        tags: "nist;article;service-mesh;istio",
+        url: "https://www.tetrate.io/tetrates-guide-to-federal-security-requirements-for-microservices/",
+    },
     {
         infotype: "Whitepapers",
         title: "Meeting the Need for Modern Application Networking",
