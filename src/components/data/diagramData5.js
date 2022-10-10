@@ -33,8 +33,22 @@ import smbook from "../../assets/smbook.jpg";
 import hipaa from "../../assets/hipaa.jpg";
 import idc from "../../assets/idc.jpg";
 import nist from "../../assets/nist800-204.jpg";
+import smsurvey2022 from "../../assets/sm-report-2022.jpg";
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "Tetrate Service Mesh Survey 2022",
+        alt: "Tetrate Service Mesh Survey 2022",
+        nodetype: "Tetrate",
+        pic: smsurvey2022,
+        icon: read,
+        time: 16,
+        overview:
+            "Tetrate's report on our survey of over 150 IT professionals for insight into the growing service mesh market.",
+        tags: "istio;survey;service-mesh;istio",
+        url: "https://www.tetrate.io/tetrate-service-mesh-survey-2022/",
+    },
     {
         infotype: "Whitepapers",
         title: "Tetrate’s Guide to Federal Security Requirements for Microservices",
