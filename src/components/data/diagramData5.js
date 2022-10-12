@@ -34,8 +34,22 @@ import hipaa from "../../assets/hipaa.jpg";
 import idc from "../../assets/idc.jpg";
 import nist from "../../assets/nist800-204.jpg";
 import smsurvey2022 from "../../assets/sm-report-2022.jpg";
+import stateofsm from "../../assets/stateofsm.jpg";
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "The current state and future of the Istio service mesh",
+        alt: "The current state and future of the Istio service mesh",
+        nodetype: "Tetrate",
+        pic: stateofsm,
+        icon: read,
+        time: 45,
+        overview:
+            "This book takes you through the historical motivation for the emergence of the service mesh, the evolution of Istio, and the Istio open source ecosystem.",
+        tags: "istio;survey;service-mesh",
+        url: "https://www.tetrate.io/get-insights-into-history-and-future-of-istio-content/",
+    },
     {
         infotype: "Papers and Guides",
         title: "Tetrate Service Mesh Survey 2022",
@@ -46,7 +60,7 @@ export const diagramData = [
         time: 16,
         overview:
             "Tetrate's report on our survey of over 150 IT professionals for insight into the growing service mesh market.",
-        tags: "istio;survey;service-mesh;istio",
+        tags: "istio;survey;service-mesh;envoy",
         url: "https://www.tetrate.io/tetrate-service-mesh-survey-2022/",
     },
     {
