@@ -35,8 +35,23 @@ import idc from "../../assets/idc.jpg";
 import nist from "../../assets/nist800-204.jpg";
 import smsurvey2022 from "../../assets/sm-report-2022.jpg";
 import stateofsm from "../../assets/stateofsm.jpg";
+import skywalkinginaction from "../../assets/skywalkinginaction.jpg";
+
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "SkyWalking in Action: Your Guide to Observability at Scale",
+        alt: "SkyWalking in Action: Your Guide to Observability at Scale",
+        nodetype: "Tetrate",
+        pic: skywalkinginaction,
+        icon: read,
+        time: 240,
+        overview:
+            "This book serves as a step-by-step guide to give readers a foundational understanding of distributed monitoring and tracing systems and practical ability to navigate Apache SkyWalking. You’ll learn about SkyWalking’s core modules and the design concepts behind them so that you can get the most out of observing your system.",
+        tags: "apache-skywalking;ebook;service-mesh;observability",
+        url: "https://www.tetrate.io/apache-skywalking-ebook-tetrate/",
+    },
     {
         infotype: "Papers and Guides",
         title: "The current state and future of the Istio service mesh",
