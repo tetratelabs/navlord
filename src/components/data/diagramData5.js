@@ -118,7 +118,7 @@ export const diagramData = [
         url: "https://www.tetrate.io/tetrate-istio-with-tsb-towards-hipaa-compliance/",
     },
     {
-        infotype: "Papers and Guides",
+        infotype: "Whitepapers",
         title: "Service Mesh Handbook",
         alt: "Service Mesh Handbook",
         nodetype: "Tetrate",
@@ -126,7 +126,7 @@ export const diagramData = [
         icon: read,
         time: 16,
         overview:
-            "Gartner’s cool vendor recognition is an important milestone and a validation for Tetrate Service Bridge. It’s a milestone but not the destination. Thanks to Gartner for the recognition, our customers and partners. Find the report here to learn what Gartner has to say about Tetrate and our product.",
+            "What is Service Mesh? It’s a new architecture that has emerged to solve the challenges of digital transformation and application modernization. If consistent observability, connectivity, security, and resilience are capabilities that are top of mind for you, then Service Mesh may be the answer you are looking for. Download the white paper to learn more.",
         tags: "gartner;article;service-mesh;istio",
         url: "https://www.tetrate.io/service-mesh-handbook/",
     },
