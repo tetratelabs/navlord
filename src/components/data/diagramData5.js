@@ -132,19 +132,6 @@ export const diagramData = [
     },
     {
         infotype: "Papers and Guides",
-        title: "Tetrate named 2021 Cool Vendor by Gartner",
-        alt: "Tetrate named 2021 Cool Vendor by Gartner",
-        nodetype: "Tetrate",
-        pic: cool,
-        icon: read,
-        time: 16,
-        overview:
-            "Gartner’s cool vendor recognition is an important milestone and a validation for Tetrate Service Bridge. It’s a milestone but not the destination. Thanks to Gartner for the recognition, our customers and partners. Find the report here to learn what Gartner has to say about Tetrate and our product.",
-        tags: "gartner;article;service-mesh;istio",
-        url: "https://www.tetrate.io/cool",
-    },
-    {
-        infotype: "Papers and Guides",
         title: "5 Things You Need To Know To Optimize Your Company’s Approach to Data Privacy and Cybersecurity",
         alt: "5 Things You Need To Know To Optimize Your Company’s Approach to Data Privacy and Cybersecurity",
         nodetype: "Tetrate",
