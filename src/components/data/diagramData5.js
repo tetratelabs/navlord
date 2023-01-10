@@ -36,9 +36,23 @@ import nist from "../../assets/nist800-204.jpg";
 import smsurvey2022 from "../../assets/sm-report-2022.jpg";
 import stateofsm from "../../assets/stateofsm.jpg";
 import skywalkinginaction from "../../assets/skywalkinginaction.jpg";
+import fipsprimer from "../../assets/fipsprimer.jpg";
 
 
 export const diagramData = [
+    {
+        infotype: "Papers and Guides",
+        title: "Primer on Zero Trust and FIPS for Cloud Native Applications",
+        alt: "Primer on Zero Trust and FIPS for Cloud Native Applications",
+        nodetype: "Tetrate",
+        pic: fipsprimer,
+        icon: read,
+        time: 40,
+        overview:
+            "Download Tetrate’s Primer on Zero Trust and FIPS for Cloud Native Applications to quickly get up to speed on what you need to know to run FIPS-verified Istio and Envoy.",
+        tags: "fips;ebook;service-mesh;security",
+        url: "https://tetrate.io/primer-on-zero-trust-and-fips-for-cloud-native-applications/",
+    },
     {
         infotype: "Papers and Guides",
         title: "SkyWalking in Action: Your Guide to Observability at Scale",
