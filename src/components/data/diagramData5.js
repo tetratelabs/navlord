@@ -28,7 +28,6 @@ import tsbintro from "../../assets/tsb-intro.jpg";
 import pci from "../../assets/pci.jpg";
 import mirantiswebinar from "../../assets/mirantis-webinar.jpg";
 import varun2 from "../../assets/varun2.jpg";
-import cool from "../../assets/cool.jpg";
 import smbook from "../../assets/smbook.jpg";
 import hipaa from "../../assets/hipaa.jpg";
 import idc from "../../assets/idc.jpg";
